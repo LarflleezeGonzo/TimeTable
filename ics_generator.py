@@ -53,30 +53,18 @@ def _build_summary(event: TimetableEvent) -> str:
     """
     Human-readable summary shown as the event title in calendar apps.
 
-    Regular:  'OB - Organizational Behaviour'
-    Special:  'OB - Organizational Behaviour (Quiz)'
+    Regular:  'OB - Organizational Behaviour (OB-1)'
+    Special:  'MOC - Managerial Oral Communication (MOC(B1) - S7)'
     Unmapped: raw cell text
     """
     code = event.course_code
     name = event.course_name
 
-    # If unmapped (name == cell_text) just return the cell text
+    # If unmapped (name == cell_text) just return the cell text as-is
     if name == event.cell_text:
         return name
 
-    summary = f"{code} - {name}"
-
-    # Append event type hint for special sessions
-    if event.is_special:
-        sn = event.session_number
-        if sn == 'Exam':
-            summary += " (Exam)"
-        elif sn.startswith('Quiz'):
-            summary += " (Quiz)"
-        elif sn == 'Workshop':
-            summary += " (Workshop)"
-
-    return summary
+    return f"{code} - {name} ({event.cell_text})"
 
 
 def _build_description(event: TimetableEvent) -> str:
