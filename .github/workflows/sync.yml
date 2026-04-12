@@ -35,10 +35,12 @@ jobs:
           SHEET_URL: ${{ secrets.SHEET_URL }}
         run: uv run python sync_timetable.py --sheet-url "$SHEET_URL"
 
+      - name: Stage timetable.ics for deploy
+        run: mkdir -p dist && cp timetable.ics dist/
+
       - name: Deploy timetable.ics to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
-          include_files: timetable.ics
+          publish_dir: dist
           commit_message: "chore: update timetable.ics [skip ci]"
