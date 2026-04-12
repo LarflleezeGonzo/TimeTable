@@ -1,0 +1,44 @@
+name: Sync Timetable
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # Daily at 2 AM UTC (7:30 AM IST)
+  workflow_dispatch:        # Manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write           # Required by peaceiris/actions-gh-pages to push gh-pages branch
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          python-version: "3.11"   # 3.9 is EOL; 3.11 is the CI baseline
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Write Google credentials
+        # Secrets are injected as files; never echoed to logs
+        run: |
+          echo '${{ secrets.CREDENTIALS_JSON }}' > credentials.json
+          echo '${{ secrets.TOKEN_JSON }}'        > token.json
+
+      - name: Sync timetable from Google Sheets
+        env:
+          SHEET_URL: ${{ secrets.SHEET_URL }}
+        run: uv run python sync_timetable.py --sheet-url "$SHEET_URL"
+
+      - name: Deploy timetable.ics to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          include_files: timetable.ics
+          commit_message: "chore: update timetable.ics [skip ci]"
