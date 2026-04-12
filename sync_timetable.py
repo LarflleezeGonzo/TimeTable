@@ -22,8 +22,7 @@ from dotenv import load_dotenv
 from auth import get_credentials
 from ics_generator import build_ics, write_ics
 from sheets import (
-    DEFAULT_SHEET_NAME,
-    fetch_sheet_data,
+    fetch_excel_from_drive,
     parse_calendar_grid,
     parse_course_map,
 )
@@ -90,12 +89,7 @@ def _build_parser() -> argparse.ArgumentParser:
         default=None,
         help="Venue string added to every event (default: CR-7C-15 or LOCATION env var).",
     )
-    parser.add_argument(
-        "--sheet-name",
-        metavar="NAME",
-        default=None,
-        help=f"Google Sheet tab name (default: '{DEFAULT_SHEET_NAME}').",
-    )
+
     parser.add_argument(
         "--year",
         metavar="YYYY",
@@ -115,16 +109,6 @@ def _build_parser() -> argparse.ArgumentParser:
     )
 
     return parser
-
-
-# ---------------------------------------------------------------------------
-# Sheet range builder
-# ---------------------------------------------------------------------------
-
-def _build_range(sheet_name: str) -> str:
-    """Quote the sheet name (handles spaces/commas) and append cell range."""
-    safe = sheet_name.replace("'", "\\'")
-    return f"'{safe}'!A1:O89"
 
 
 # ---------------------------------------------------------------------------
@@ -150,7 +134,6 @@ def main() -> None:
     output     = args.output    or os.environ.get("DEFAULT_OUTPUT", "timetable.ics")
     timezone   = args.timezone  or os.environ.get("DEFAULT_TIMEZONE", "Asia/Kolkata")
     location   = args.location  or os.environ.get("LOCATION", "CR-7C-15")
-    sheet_name = args.sheet_name or DEFAULT_SHEET_NAME
 
     if not sheet_url:
         parser.error(
@@ -183,19 +166,16 @@ def main() -> None:
 
     print("Authentication OK.\n")
 
-    # --- Fetch sheet data ---
-    sheet_range = _build_range(sheet_name)
-    print(f"Fetching data from '{sheet_name}'…")
+    # --- Fetch data (Drive API — file is stored as Excel .xlsx on Drive) ---
+    print(f"Downloading Excel file from Google Drive (file ID: {spreadsheet_id})…")
     try:
-        rows = fetch_sheet_data(spreadsheet_id, creds, sheet_range)
+        rows = fetch_excel_from_drive(spreadsheet_id, creds)
     except PermissionError as exc:
         sys.exit(f"ERROR: {exc}")
     except FileNotFoundError as exc:
         sys.exit(f"ERROR: {exc}")
-    except ValueError as exc:
-        sys.exit(f"ERROR: {exc}")
     except Exception as exc:
-        sys.exit(f"ERROR fetching sheet data: {exc}")
+        sys.exit(f"ERROR downloading file: {exc}")
 
     print(f"Fetched {len(rows)} rows.\n")
 

@@ -8,13 +8,16 @@ list of TimetableEvent objects — one per non-empty session cell.
 
 from __future__ import annotations
 
+import io
 import logging
 import re
 from dataclasses import dataclass, field
 from datetime import date, time
 
+import openpyxl
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
+from googleapiclient.http import MediaIoBaseDownload
 from google.oauth2.credentials import Credentials
 
 from utils import (
@@ -55,6 +58,52 @@ _SLOT_COLS = {1: _COL_S1, 2: _COL_S2, 3: _COL_S3, 4: _COL_S4, 5: _COL_S5, 6: _CO
 DEFAULT_SHEET_NAME  = "Term-I, Session Plan"
 DEFAULT_DATA_RANGE  = "'Term-I, Session Plan'!A1:O89"
 _DATA_START_ROW_IDX = 6  # 0-based index of the first real data row (sheet row 7)
+
+
+# ---------------------------------------------------------------------------
+# Drive API fetch (for Excel .xlsx files stored on Google Drive)
+# ---------------------------------------------------------------------------
+
+def fetch_excel_from_drive(
+    file_id: str,
+    credentials: Credentials,
+) -> list[list]:
+    """
+    Download an Excel (.xlsx) file from Google Drive and return its rows.
+
+    This is used when the source file is stored as an Office format on Drive
+    rather than as a native Google Sheet (identified by HTTP 400 from Sheets API).
+    Uses the Drive API v3 files.get_media endpoint with drive.readonly scope.
+
+    Returns the same list[list] format as fetch_sheet_data — padded to 15 cols.
+    """
+    try:
+        service = build("drive", "v3", credentials=credentials)
+        request = service.files().get_media(fileId=file_id)
+        buf = io.BytesIO()
+        downloader = MediaIoBaseDownload(buf, request)
+        done = False
+        while not done:
+            _, done = downloader.next_chunk()
+        buf.seek(0)
+    except HttpError as exc:
+        status = exc.resp.status
+        if status == 403:
+            raise PermissionError(
+                "Cannot download the file from Drive (HTTP 403). "
+                "Make sure the file is shared with your Google account."
+            ) from exc
+        if status == 404:
+            raise FileNotFoundError(
+                "File not found on Drive (HTTP 404). Double-check the URL."
+            ) from exc
+        raise
+
+    wb = openpyxl.load_workbook(buf, data_only=True)
+    ws = wb.active
+    rows = [list(row) for row in ws.iter_rows(values_only=True)]
+    logger.info("Downloaded Excel file from Drive: %d rows, sheet '%s'.", len(rows), ws.title)
+    return pad_rows(rows)
 
 
 @dataclass

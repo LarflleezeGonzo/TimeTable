@@ -20,7 +20,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 
 logger = logging.getLogger(__name__)
 
-SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
+SCOPES = ["https://www.googleapis.com/auth/drive.readonly"]
 
 _GCP_HELP = (
     "\nTo create credentials.json:\n"
