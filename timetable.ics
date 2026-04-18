@@ -446,16 +446,6 @@ LOCATION:CR-7C-15
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ETB - Emerging Technologies for Business - Workshop (ET Workshop)
-DTSTART;TZID=Asia/Kolkata:20260425T090000
-DTEND;TZID=Asia/Kolkata:20260425T103000
-UID:f46bdec479c9957cd8b7df6c8ccdb204@iimutimetable
-CATEGORIES:Special
-DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop
-LOCATION:CR-7C-15
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:OB - Organizational Behaviour (OB-6)
 DTSTART;TZID=Asia/Kolkata:20260427T090000
 DTEND;TZID=Asia/Kolkata:20260427T103000
@@ -873,16 +863,6 @@ UID:dd6ce1a6c31167e3d87de0718e0c28b7@iimutimetable
 CATEGORIES:Special
 DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: Quiz-2\nCode: OB\n\nRaw
  : OB Quiz - 2
-LOCATION:CR-7C-15
-STATUS:TENTATIVE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ETB - Emerging Technologies for Business - Workshop (ET Workshop)
-DTSTART;TZID=Asia/Kolkata:20260509T090000
-DTEND;TZID=Asia/Kolkata:20260509T103000
-UID:433847c1e36dee32d7df755d176c4bfd@iimutimetable
-CATEGORIES:Special
-DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
 END:VEVENT
