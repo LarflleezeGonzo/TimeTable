@@ -15,6 +15,11 @@ CATEGORIES:Special
 DESCRIPTION:Code: REGISTRATION\n\nRaw: Registration 02:30 - 05:30 pm
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Registration 02:30 - 05:30 pm starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Inauguration & Orientation
@@ -25,9 +30,14 @@ CATEGORIES:Special
 DESCRIPTION:Code: INAUGURATION\n\nRaw: Inauguration & Orientation
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Inauguration & Orientation starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OB - Organizational Behaviour (OB-1)
+SUMMARY:OB-1 (Organizational Behaviour)
 DTSTART;TZID=Asia/Kolkata:20260413T090000
 DTEND;TZID=Asia/Kolkata:20260413T103000
 UID:d0a8abc46bc604dab4d4ffd45bc53811@iimutimetable
@@ -36,10 +46,14 @@ DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: 1\nCode: OB\n\nRaw: OB-
  1
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OB-1 (Organizational Behaviour) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 1)
+SUMMARY:FRACM-1 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260413T104500
 DTEND;TZID=Asia/Kolkata:20260413T121500
 UID:c02e5980e93bc36ff807a44d46d6bf53@iimutimetable
@@ -48,9 +62,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 1\nCode: FRACM\n\nRaw:
   FRACM-1
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-1 (Financial Reporting and Analysis & Cost Management) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OM - Operations Management (OM-1)
+SUMMARY:OM-1 (Operations Management)
 DTSTART;TZID=Asia/Kolkata:20260413T123000
 DTEND;TZID=Asia/Kolkata:20260413T140000
 UID:2e8aee05bc3ec716717ef8b356acada6@iimutimetable
@@ -59,9 +79,14 @@ DESCRIPTION:Faculty: Prof. Sreejith Krishnakumar\nSession: 1\nCode: OM\n\n
  Raw: OM-1
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OM-1 (Operations Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B1) - S1)
+SUMMARY:MOC(B1) - S1 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260413T150000
 DTEND;TZID=Asia/Kolkata:20260413T163000
 UID:e490a9708daa0597cebb90acf530ad62@iimutimetable
@@ -70,9 +95,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S1\nCode: MOC\n\nRa
  w: MOC(B1) - S1
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B1) - S1 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B1) - S2)
+SUMMARY:MOC(B1) - S2 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260413T164500
 DTEND;TZID=Asia/Kolkata:20260413T181500
 UID:09d4a9f1bf491375bc5117c7a666797c@iimutimetable
@@ -81,9 +112,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S2\nCode: MOC\n\nRa
  w: MOC(B1) - S2
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B1) - S2 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OB - Organizational Behaviour (OB-2)
+SUMMARY:OB-2 (Organizational Behaviour)
 DTSTART;TZID=Asia/Kolkata:20260414T090000
 DTEND;TZID=Asia/Kolkata:20260414T103000
 UID:1c9cd6eacdac2a2c5b43cc5fb0727ac9@iimutimetable
@@ -92,10 +129,14 @@ DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: 2\nCode: OB\n\nRaw: OB-
  2
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OB-2 (Organizational Behaviour) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 2)
+SUMMARY:FRACM-2 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260414T104500
 DTEND;TZID=Asia/Kolkata:20260414T121500
 UID:0bb21b0bc25baaf5a02bf10715aa208f@iimutimetable
@@ -104,9 +145,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 2\nCode: FRACM\n\nRaw:
   FRACM-2
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-2 (Financial Reporting and Analysis & Cost Management) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OM - Operations Management (OM-2)
+SUMMARY:OM-2 (Operations Management)
 DTSTART;TZID=Asia/Kolkata:20260414T123000
 DTEND;TZID=Asia/Kolkata:20260414T140000
 UID:d189014673bfe4f9f300de869b3e3dd6@iimutimetable
@@ -115,9 +162,14 @@ DESCRIPTION:Faculty: Prof. Sreejith Krishnakumar\nSession: 2\nCode: OM\n\n
  Raw: OM-2
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OM-2 (Operations Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B2) - S1)
+SUMMARY:MOC(B2) - S1 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260414T150000
 DTEND;TZID=Asia/Kolkata:20260414T163000
 UID:df289573f4d29ca2ebc137c0d9850fb2@iimutimetable
@@ -126,9 +178,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S1\nCode: MOC\n\nRa
  w: MOC(B2) - S1
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B2) - S1 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B2) - S2)
+SUMMARY:MOC(B2) - S2 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260414T164500
 DTEND;TZID=Asia/Kolkata:20260414T181500
 UID:2d24706d8d6a04ac4e4f0f0fca59e7cd@iimutimetable
@@ -137,9 +195,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S2\nCode: MOC\n\nRa
  w: MOC(B2) - S2
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B2) - S2 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OB - Organizational Behaviour (OB-3)
+SUMMARY:OB-3 (Organizational Behaviour)
 DTSTART;TZID=Asia/Kolkata:20260415T090000
 DTEND;TZID=Asia/Kolkata:20260415T103000
 UID:a48c996676043ce013375e39b142a7d6@iimutimetable
@@ -148,10 +212,14 @@ DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: 3\nCode: OB\n\nRaw: OB-
  3
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OB-3 (Organizational Behaviour) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 3)
+SUMMARY:FRACM-3 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260415T104500
 DTEND;TZID=Asia/Kolkata:20260415T121500
 UID:4024ab957a925f94a679db8b7e84ed43@iimutimetable
@@ -160,9 +228,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 3\nCode: FRACM\n\nRaw:
   FRACM-3
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-3 (Financial Reporting and Analysis & Cost Management) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B1) - S3)
+SUMMARY:MOC(B1) - S3 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260415T150000
 DTEND;TZID=Asia/Kolkata:20260415T163000
 UID:935e682448fdf637c7253c1571cca1b9@iimutimetable
@@ -171,9 +245,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S3\nCode: MOC\n\nRa
  w: MOC(B1) - S3
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B1) - S3 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B1) - S4)
+SUMMARY:MOC(B1) - S4 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260415T164500
 DTEND;TZID=Asia/Kolkata:20260415T181500
 UID:401d86b680b4469a9f326e7debd0954d@iimutimetable
@@ -182,9 +262,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S4\nCode: MOC\n\nRa
  w: MOC(B1) - S4
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B1) - S4 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OM - Operations Management (OM Tutorial)
+SUMMARY:OM Tutorial (Operations Management)
 DTSTART;TZID=Asia/Kolkata:20260416T104500
 DTEND;TZID=Asia/Kolkata:20260416T121500
 UID:2fd12689f9c655f1c3635b1edd80288e@iimutimetable
@@ -193,9 +279,14 @@ DESCRIPTION:Faculty: Prof. Sreejith Krishnakumar\nCode: OM\n\nRaw: OM Tuto
  rial
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OM Tutorial (Operations Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-1)
+SUMMARY:BS-1 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260416T123000
 DTEND;TZID=Asia/Kolkata:20260416T140000
 UID:c64d7e4721f0ccda144b6f1324b814e2@iimutimetable
@@ -203,9 +294,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 1\nCode: BS\n\nRaw: BS-1
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-1 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B2) - S3)
+SUMMARY:MOC(B2) - S3 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260417T090000
 DTEND;TZID=Asia/Kolkata:20260417T103000
 UID:7e3e3f61365346392c32ae5a85e90100@iimutimetable
@@ -214,9 +310,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S3\nCode: MOC\n\nRa
  w: MOC(B2) - S3
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B2) - S3 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B2) - S4)
+SUMMARY:MOC(B2) - S4 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260417T104500
 DTEND;TZID=Asia/Kolkata:20260417T121500
 UID:f8e29bef209bf3576c1e2c8493ab8a97@iimutimetable
@@ -225,9 +327,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S4\nCode: MOC\n\nRa
  w: MOC(B2) - S4
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B2) - S4 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-2)
+SUMMARY:BS-2 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260417T123000
 DTEND;TZID=Asia/Kolkata:20260417T140000
 UID:3a8f30a7b9546a485440f21aee1ac165@iimutimetable
@@ -235,9 +343,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 2\nCode: BS\n\nRaw: BS-2
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-2 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B1) - S5)
+SUMMARY:MOC(B1) - S5 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260418T150000
 DTEND;TZID=Asia/Kolkata:20260418T163000
 UID:c0d01135b5ac04578bfc761cd5e6828a@iimutimetable
@@ -246,9 +359,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S5\nCode: MOC\n\nRa
  w: MOC(B1) - S5
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B1) - S5 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B1) - S6)
+SUMMARY:MOC(B1) - S6 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260418T164500
 DTEND;TZID=Asia/Kolkata:20260418T181500
 UID:f76e8d50072461d9ae7d3aaf245e0f3d@iimutimetable
@@ -257,9 +376,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S6\nCode: MOC\n\nRa
  w: MOC(B1) - S6
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B1) - S6 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B1) - S7 (6.30 - 8.00pm))
+SUMMARY:MOC(B1) - S7 (6.30 - 8.00pm) (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260418T183000
 DTEND;TZID=Asia/Kolkata:20260418T200000
 UID:0b3e1258857a585d8e47a6f78b3a9612@iimutimetable
@@ -268,9 +393,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S7\nCode: MOC\n\nRa
  w: MOC(B1) - S7 (6.30 - 8.00pm)
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B1) - S7 (6.30 - 8.00pm) (Managerial Oral Communication) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OB - Organizational Behaviour (OB-4)
+SUMMARY:OB-4 (Organizational Behaviour)
 DTSTART;TZID=Asia/Kolkata:20260420T090000
 DTEND;TZID=Asia/Kolkata:20260420T103000
 UID:9969ffdf07fe28aef6a48cc7c76f3a5c@iimutimetable
@@ -279,9 +410,14 @@ DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: 4\nCode: OB\n\nRaw: OB-
  4
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OB-4 (Organizational Behaviour) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OM - Operations Management (OM-3)
+SUMMARY:OM-3 (Operations Management)
 DTSTART;TZID=Asia/Kolkata:20260420T123000
 DTEND;TZID=Asia/Kolkata:20260420T140000
 UID:0f6e5608c297b2c0e313fd0d1a7ea3d5@iimutimetable
@@ -290,9 +426,14 @@ DESCRIPTION:Faculty: Prof. Sreejith Krishnakumar\nSession: 3\nCode: OM\n\n
  Raw: OM-3
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OM-3 (Operations Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B2) - S5)
+SUMMARY:MOC(B2) - S5 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260420T150000
 DTEND;TZID=Asia/Kolkata:20260420T163000
 UID:b6f1b514ec0146cbe4e5aa95bc1a82dd@iimutimetable
@@ -301,9 +442,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S5\nCode: MOC\n\nRa
  w: MOC(B2) - S5
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B2) - S5 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B2) - S6)
+SUMMARY:MOC(B2) - S6 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260420T164500
 DTEND;TZID=Asia/Kolkata:20260420T181500
 UID:5ea742d499448902a9c1853bec6f7346@iimutimetable
@@ -312,9 +459,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S6\nCode: MOC\n\nRa
  w: MOC(B2) - S6
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B2) - S6 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B2) - S7 (6.30 - 8.00pm))
+SUMMARY:MOC(B2) - S7 (6.30 - 8.00pm) (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260420T183000
 DTEND;TZID=Asia/Kolkata:20260420T200000
 UID:741cc3fd89cffdd556f3c469a8167694@iimutimetable
@@ -323,9 +476,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S7\nCode: MOC\n\nRa
  w: MOC(B2) - S7 (6.30 - 8.00pm)
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B2) - S7 (6.30 - 8.00pm) (Managerial Oral Communication) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OB - Organizational Behaviour (OB-5)
+SUMMARY:OB-5 (Organizational Behaviour)
 DTSTART;TZID=Asia/Kolkata:20260421T090000
 DTEND;TZID=Asia/Kolkata:20260421T103000
 UID:0f4cf551fb0a5ad6660c40b88bb15877@iimutimetable
@@ -334,10 +493,14 @@ DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: 5\nCode: OB\n\nRaw: OB-
  5
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OB-5 (Organizational Behaviour) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 4)
+SUMMARY:FRACM-4 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260421T104500
 DTEND;TZID=Asia/Kolkata:20260421T121500
 UID:e26203584c62cc361eb3f7e9bad25189@iimutimetable
@@ -346,9 +509,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 4\nCode: FRACM\n\nRaw:
   FRACM-4
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-4 (Financial Reporting and Analysis & Cost Management) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OM - Operations Management (OM-4)
+SUMMARY:OM-4 (Operations Management)
 DTSTART;TZID=Asia/Kolkata:20260421T123000
 DTEND;TZID=Asia/Kolkata:20260421T140000
 UID:ddc025266482f9d2bd604be289f550c1@iimutimetable
@@ -357,9 +526,14 @@ DESCRIPTION:Faculty: Prof. Sreejith Krishnakumar\nSession: 4\nCode: OM\n\n
  Raw: OM-4
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OM-4 (Operations Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B1) - S8)
+SUMMARY:MOC(B1) - S8 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260421T150000
 DTEND;TZID=Asia/Kolkata:20260421T163000
 UID:89b9b79bec1d822766df5e3dbd6142f8@iimutimetable
@@ -368,9 +542,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S8\nCode: MOC\n\nRa
  w: MOC(B1) - S8
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B1) - S8 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B1) - S9)
+SUMMARY:MOC(B1) - S9 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260421T164500
 DTEND;TZID=Asia/Kolkata:20260421T181500
 UID:e028c40452850a9259877ffffbe6acb2@iimutimetable
@@ -379,10 +559,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S9\nCode: MOC\n\nRa
  w: MOC(B1) - S9
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B1) - S9 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 5)
+SUMMARY:FRACM-5 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260422T104500
 DTEND;TZID=Asia/Kolkata:20260422T121500
 UID:bacb6d3f8677d04e0bc14373f1a8bec9@iimutimetable
@@ -391,9 +576,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 5\nCode: FRACM\n\nRaw:
   FRACM-5
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-5 (Financial Reporting and Analysis & Cost Management) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-3)
+SUMMARY:BS-3 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260422T123000
 DTEND;TZID=Asia/Kolkata:20260422T140000
 UID:dfc61e7909a3854bf8ec8b47d50c3a05@iimutimetable
@@ -401,9 +592,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 3\nCode: BS\n\nRaw: BS-3
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-3 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OR(I) - Operations Research - I (OR(I)-1)
+SUMMARY:OR(I)-1 (Operations Research - I)
 DTSTART;TZID=Asia/Kolkata:20260423T104500
 DTEND;TZID=Asia/Kolkata:20260423T121500
 UID:e4a6aa90855e71562c65fdaf167258e0@iimutimetable
@@ -412,9 +608,14 @@ DESCRIPTION:Faculty: Prof. Sumit Kumar\nSession: 1\nCode: OR(I)\n\nRaw: OR
  (I)-1
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OR(I)-1 (Operations Research - I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-4)
+SUMMARY:BS-4 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260423T123000
 DTEND;TZID=Asia/Kolkata:20260423T140000
 UID:a213e6a17a0dd4adb38d4a78cee2a216@iimutimetable
@@ -422,9 +623,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 4\nCode: BS\n\nRaw: BS-4
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-4 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OB - Organizational Behaviour (OB Quiz - 1 / OM Tutorial)
+SUMMARY:OB Quiz - 1 / OM Tutorial (Organizational Behaviour)
 DTSTART;TZID=Asia/Kolkata:20260423T150000
 DTEND;TZID=Asia/Kolkata:20260423T163000
 UID:702a8161bc4e549a87697f0eb91ec393@iimutimetable
@@ -433,9 +639,15 @@ DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: Quiz-1\nCode: OB\n\nRaw
  : OB Quiz - 1 / OM Tutorial
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OB Quiz - 1 / OM Tutorial (Organizational Behaviour) starting 
+ in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OR(I) - Operations Research - I (OR(I)-2)
+SUMMARY:OR(I)-2 (Operations Research - I)
 DTSTART;TZID=Asia/Kolkata:20260424T104500
 DTEND;TZID=Asia/Kolkata:20260424T121500
 UID:a4198d347cb73bfc736d3910ac2648e7@iimutimetable
@@ -444,9 +656,14 @@ DESCRIPTION:Faculty: Prof. Sumit Kumar\nSession: 2\nCode: OR(I)\n\nRaw: OR
  (I)-2
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OR(I)-2 (Operations Research - I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OB - Organizational Behaviour (OB-6)
+SUMMARY:OB-6 (Organizational Behaviour)
 DTSTART;TZID=Asia/Kolkata:20260427T090000
 DTEND;TZID=Asia/Kolkata:20260427T103000
 UID:72949e8ce59d94b36a422333dcf5f95b@iimutimetable
@@ -455,10 +672,14 @@ DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: 6\nCode: OB\n\nRaw: OB-
  6
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OB-6 (Organizational Behaviour) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 6)
+SUMMARY:FRACM-6 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260427T104500
 DTEND;TZID=Asia/Kolkata:20260427T121500
 UID:58059f5064616548802252e61c71ea96@iimutimetable
@@ -467,9 +688,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 6\nCode: FRACM\n\nRaw:
   FRACM-6
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-6 (Financial Reporting and Analysis & Cost Management) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OM - Operations Management (OM-5)
+SUMMARY:OM-5 (Operations Management)
 DTSTART;TZID=Asia/Kolkata:20260427T123000
 DTEND;TZID=Asia/Kolkata:20260427T140000
 UID:ba3ba04bc541ffff901e65f8c6096bcb@iimutimetable
@@ -478,9 +705,14 @@ DESCRIPTION:Faculty: Prof. Sreejith Krishnakumar\nSession: 5\nCode: OM\n\n
  Raw: OM-5
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OM-5 (Operations Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B2) - S8)
+SUMMARY:MOC(B2) - S8 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260427T150000
 DTEND;TZID=Asia/Kolkata:20260427T163000
 UID:1f3475e09d8e5fef2ed0c50fe8b8fd41@iimutimetable
@@ -489,9 +721,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S8\nCode: MOC\n\nRa
  w: MOC(B2) - S8
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B2) - S8 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B2) - S9)
+SUMMARY:MOC(B2) - S9 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260427T164500
 DTEND;TZID=Asia/Kolkata:20260427T181500
 UID:af3d99eea43749a0d09fb56ee423cf69@iimutimetable
@@ -500,9 +738,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S9\nCode: MOC\n\nRa
  w: MOC(B2) - S9
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B2) - S9 (Managerial Oral Communication) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OB - Organizational Behaviour (OB-7)
+SUMMARY:OB-7 (Organizational Behaviour)
 DTSTART;TZID=Asia/Kolkata:20260428T090000
 DTEND;TZID=Asia/Kolkata:20260428T103000
 UID:aa54481e381937e506d2f5ddde73db0a@iimutimetable
@@ -511,9 +755,14 @@ DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: 7\nCode: OB\n\nRaw: OB-
  7
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OB-7 (Organizational Behaviour) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OM - Operations Management (OM-6)
+SUMMARY:OM-6 (Operations Management)
 DTSTART;TZID=Asia/Kolkata:20260428T104500
 DTEND;TZID=Asia/Kolkata:20260428T121500
 UID:5463cbc313955b9762e5bcdd0a122740@iimutimetable
@@ -522,9 +771,14 @@ DESCRIPTION:Faculty: Prof. Sreejith Krishnakumar\nSession: 6\nCode: OM\n\n
  Raw: OM-6
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OM-6 (Operations Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B1 & B2) - S10)
+SUMMARY:MOC(B1 & B2) - S10 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260428T150000
 DTEND;TZID=Asia/Kolkata:20260428T163000
 UID:405f4c464390558a987fd2814ebe4170@iimutimetable
@@ -533,9 +787,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S10\nCode: MOC\n\nR
  aw: MOC(B1 & B2) - S10
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B1 & B2) - S10 (Managerial Oral Communication) starting in
+  5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B1 & B2) - S11)
+SUMMARY:MOC(B1 & B2) - S11 (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260428T164500
 DTEND;TZID=Asia/Kolkata:20260428T181500
 UID:75ec093028144b4e8520c7e2c50068be@iimutimetable
@@ -544,10 +804,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S11\nCode: MOC\n\nR
  aw: MOC(B1 & B2) - S11
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B1 & B2) - S11 (Managerial Oral Communication) starting in
+  5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MOC - Managerial Oral Communication (MOC(B1 & B2) - S12 (6.30 - 8.
- 00pm))
+SUMMARY:MOC(B1 & B2) - S12 (6.30 - 8.00pm) (Managerial Oral Communication)
 DTSTART;TZID=Asia/Kolkata:20260428T183000
 DTEND;TZID=Asia/Kolkata:20260428T200000
 UID:e8215c7457398b22740da6cc8c167cc8@iimutimetable
@@ -556,9 +821,15 @@ DESCRIPTION:Faculty: Prof. Sunil Unny Guptan\nSession: S12\nCode: MOC\n\nR
  aw: MOC(B1 & B2) - S12 (6.30 - 8.00pm)
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOC(B1 & B2) - S12 (6.30 - 8.00pm) (Managerial Oral Communicat
+ ion) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OR(I) - Operations Research - I (OR(I)-3)
+SUMMARY:OR(I)-3 (Operations Research - I)
 DTSTART;TZID=Asia/Kolkata:20260429T104500
 DTEND;TZID=Asia/Kolkata:20260429T121500
 UID:b910b8b6c3c979356aaa6276650521b2@iimutimetable
@@ -567,9 +838,14 @@ DESCRIPTION:Faculty: Prof. Sumit Kumar\nSession: 3\nCode: OR(I)\n\nRaw: OR
  (I)-3
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OR(I)-3 (Operations Research - I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-1)
+SUMMARY:EM-1 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260429T123000
 DTEND;TZID=Asia/Kolkata:20260429T140000
 UID:3beed4356bec584b50dd6216e4fdafda@iimutimetable
@@ -578,9 +854,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 1\nCode: EM\n\nRaw: E
  M-1
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-1 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-5)
+SUMMARY:BS-5 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260429T150000
 DTEND;TZID=Asia/Kolkata:20260429T163000
 UID:de3dda2b563c628d316dbcf3c9423bfe@iimutimetable
@@ -588,10 +869,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 5\nCode: BS\n\nRaw: BS-5
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-5 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 7)
+SUMMARY:FRACM-7 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260430T090000
 DTEND;TZID=Asia/Kolkata:20260430T103000
 UID:b646e0605411b3cd6a9b1b52a343ffab@iimutimetable
@@ -600,9 +885,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 7\nCode: FRACM\n\nRaw:
   FRACM-7
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-7 (Financial Reporting and Analysis & Cost Management) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OR(I) - Operations Research - I (OR(I)-4)
+SUMMARY:OR(I)-4 (Operations Research - I)
 DTSTART;TZID=Asia/Kolkata:20260430T104500
 DTEND;TZID=Asia/Kolkata:20260430T121500
 UID:58e279593606a9317df010566b552886@iimutimetable
@@ -611,9 +902,14 @@ DESCRIPTION:Faculty: Prof. Sumit Kumar\nSession: 4\nCode: OR(I)\n\nRaw: OR
  (I)-4
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OR(I)-4 (Operations Research - I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-2)
+SUMMARY:EM-2 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260430T123000
 DTEND;TZID=Asia/Kolkata:20260430T140000
 UID:c83719344f9b8a32a485d7edb5799613@iimutimetable
@@ -622,9 +918,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 2\nCode: EM\n\nRaw: E
  M-2
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-2 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-6)
+SUMMARY:BS-6 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260430T150000
 DTEND;TZID=Asia/Kolkata:20260430T163000
 UID:024de32846d2a629ac8634c58926ae29@iimutimetable
@@ -632,10 +933,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 6\nCode: BS\n\nRaw: BS-6
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-6 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 8)
+SUMMARY:FRACM-8 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260501T090000
 DTEND;TZID=Asia/Kolkata:20260501T103000
 UID:970459a5fc0c2d7f9ca80f72e418ec5b@iimutimetable
@@ -644,9 +949,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 8\nCode: FRACM\n\nRaw:
   FRACM-8
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-8 (Financial Reporting and Analysis & Cost Management) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OR(I) - Operations Research - I (OR(I)-5)
+SUMMARY:OR(I)-5 (Operations Research - I)
 DTSTART;TZID=Asia/Kolkata:20260501T104500
 DTEND;TZID=Asia/Kolkata:20260501T121500
 UID:b6b7b9a0c9446f9395af8f40f367a96c@iimutimetable
@@ -655,9 +966,14 @@ DESCRIPTION:Faculty: Prof. Sumit Kumar\nSession: 5\nCode: OR(I)\n\nRaw: OR
  (I)-5
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OR(I)-5 (Operations Research - I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-3)
+SUMMARY:EM-3 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260501T123000
 DTEND;TZID=Asia/Kolkata:20260501T140000
 UID:cf3f93d673307069134c4cece38d7151@iimutimetable
@@ -666,9 +982,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 3\nCode: EM\n\nRaw: E
  M-3
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-3 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS Quiz - 1)
+SUMMARY:BS Quiz - 1 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260501T164500
 DTEND;TZID=Asia/Kolkata:20260501T181500
 UID:3de561fa7ef9756d52b96d0a0feaf2c8@iimutimetable
@@ -677,6 +998,11 @@ DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: Quiz-1\nCode: BS\n\nRaw: B
  S Quiz - 1
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS Quiz - 1 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CDPO - Placement Preparation Road Map 3-5pm
@@ -687,9 +1013,15 @@ CATEGORIES:CDPO
 DESCRIPTION:Code: CDPO\n\nRaw: CDPO - Placement Preparation Road Map 3-5pm
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CDPO - Placement Preparation Road Map 3-5pm starting in 5 minu
+ tes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OB - Organizational Behaviour (OB-8)
+SUMMARY:OB-8 (Organizational Behaviour)
 DTSTART;TZID=Asia/Kolkata:20260504T090000
 DTEND;TZID=Asia/Kolkata:20260504T103000
 UID:b04ce1862e5341669245a4c8c3800f56@iimutimetable
@@ -698,10 +1030,14 @@ DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: 8\nCode: OB\n\nRaw: OB-
  8
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OB-8 (Organizational Behaviour) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 9)
+SUMMARY:FRACM-9 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260504T104500
 DTEND;TZID=Asia/Kolkata:20260504T121500
 UID:3feaedbd5d7e1efa312d5bf0a8f9058f@iimutimetable
@@ -710,9 +1046,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 9\nCode: FRACM\n\nRaw:
   FRACM-9
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-9 (Financial Reporting and Analysis & Cost Management) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-4)
+SUMMARY:EM-4 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260504T123000
 DTEND;TZID=Asia/Kolkata:20260504T140000
 UID:b0375b65690085353cf8a084c45c9376@iimutimetable
@@ -721,9 +1063,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 4\nCode: EM\n\nRaw: E
  M-4
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-4 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OM - Operations Management (OM-7)
+SUMMARY:OM-7 (Operations Management)
 DTSTART;TZID=Asia/Kolkata:20260504T150000
 DTEND;TZID=Asia/Kolkata:20260504T163000
 UID:5e73002b740c2cfa9464b1a53a469cb6@iimutimetable
@@ -732,9 +1079,14 @@ DESCRIPTION:Faculty: Prof. Sreejith Krishnakumar\nSession: 7\nCode: OM\n\n
  Raw: OM-7
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OM-7 (Operations Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OB - Organizational Behaviour (OB-9)
+SUMMARY:OB-9 (Organizational Behaviour)
 DTSTART;TZID=Asia/Kolkata:20260505T090000
 DTEND;TZID=Asia/Kolkata:20260505T103000
 UID:8d391d80a2ea2e87d3a0b84768ca2937@iimutimetable
@@ -743,10 +1095,14 @@ DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: 9\nCode: OB\n\nRaw: OB-
  9
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OB-9 (Organizational Behaviour) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 10)
+SUMMARY:FRACM-10 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260505T104500
 DTEND;TZID=Asia/Kolkata:20260505T121500
 UID:8e7351eeff87ee542eae02fbc6891375@iimutimetable
@@ -755,9 +1111,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 10\nCode: FRACM\n\nRaw
  : FRACM-10
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-10 (Financial Reporting and Analysis & Cost Management) 
+ starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-5)
+SUMMARY:EM-5 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260505T123000
 DTEND;TZID=Asia/Kolkata:20260505T140000
 UID:fb710a7fba916ffd2e69779bb7fa7da3@iimutimetable
@@ -766,9 +1128,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 5\nCode: EM\n\nRaw: E
  M-5
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-5 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OM - Operations Management (OM-8)
+SUMMARY:OM-8 (Operations Management)
 DTSTART;TZID=Asia/Kolkata:20260505T150000
 DTEND;TZID=Asia/Kolkata:20260505T163000
 UID:b23577e3598f28124f300b0128a30122@iimutimetable
@@ -777,9 +1144,14 @@ DESCRIPTION:Faculty: Prof. Sreejith Krishnakumar\nSession: 8\nCode: OM\n\n
  Raw: OM-8
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OM-8 (Operations Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OB - Organizational Behaviour (OB-10)
+SUMMARY:OB-10 (Organizational Behaviour)
 DTSTART;TZID=Asia/Kolkata:20260506T090000
 DTEND;TZID=Asia/Kolkata:20260506T103000
 UID:249067864751386fc342c4818190e327@iimutimetable
@@ -788,10 +1160,14 @@ DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: 10\nCode: OB\n\nRaw: OB
  -10
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OB-10 (Organizational Behaviour) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 11)
+SUMMARY:FRACM-11 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260506T104500
 DTEND;TZID=Asia/Kolkata:20260506T121500
 UID:965931958a1dbb0bb67fe0f5e2b8dfa5@iimutimetable
@@ -800,9 +1176,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 11\nCode: FRACM\n\nRaw
  : FRACM-11
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-11 (Financial Reporting and Analysis & Cost Management) 
+ starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-6)
+SUMMARY:EM-6 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260506T123000
 DTEND;TZID=Asia/Kolkata:20260506T140000
 UID:9d1e15d72ca09f64d1453e00b986053e@iimutimetable
@@ -811,9 +1193,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 6\nCode: EM\n\nRaw: E
  M-6
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-6 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OR(I) - Operations Research - I (OR(I)-6)
+SUMMARY:OR(I)-6 (Operations Research - I)
 DTSTART;TZID=Asia/Kolkata:20260507T104500
 DTEND;TZID=Asia/Kolkata:20260507T121500
 UID:d3742b46230c3b86fe6a89090739c3f9@iimutimetable
@@ -822,19 +1209,14 @@ DESCRIPTION:Faculty: Prof. Sumit Kumar\nSession: 6\nCode: OR(I)\n\nRaw: OR
  (I)-6
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OR(I)-6 (Operations Research - I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-7)
-DTSTART;TZID=Asia/Kolkata:20260507T123000
-DTEND;TZID=Asia/Kolkata:20260507T140000
-UID:c15c389f8bfe3342532142d4bdd146e4@iimutimetable
-CATEGORIES:BS
-DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 7\nCode: BS\n\nRaw: BS-7
-LOCATION:CR-7C-15
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ADV - Agile & DevOps (ADV-1)
+SUMMARY:ADV-1 (Agile & DevOps)
 DTSTART;TZID=Asia/Kolkata:20260507T150000
 DTEND;TZID=Asia/Kolkata:20260507T163000
 UID:fc047ff6b3c5813d41f7be1c2baa1b49@iimutimetable
@@ -843,9 +1225,14 @@ DESCRIPTION:Faculty: Prof. Subbi Lakshmanan\nSession: 1\nCode: ADV\n\nRaw:
   ADV-1
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ADV-1 (Agile & DevOps) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ADV - Agile & DevOps (ADV-2)
+SUMMARY:ADV-2 (Agile & DevOps)
 DTSTART;TZID=Asia/Kolkata:20260508T090000
 DTEND;TZID=Asia/Kolkata:20260508T103000
 UID:7e37738de1f4ae4d912d672f950964ad@iimutimetable
@@ -854,9 +1241,14 @@ DESCRIPTION:Faculty: Prof. Subbi Lakshmanan\nSession: 2\nCode: ADV\n\nRaw:
   ADV-2
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ADV-2 (Agile & DevOps) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OR(I) - Operations Research - I (OR(I)-7)
+SUMMARY:OR(I)-7 (Operations Research - I)
 DTSTART;TZID=Asia/Kolkata:20260508T104500
 DTEND;TZID=Asia/Kolkata:20260508T121500
 UID:724b53dbb23d6809b75f7d93db7e7134@iimutimetable
@@ -865,9 +1257,14 @@ DESCRIPTION:Faculty: Prof. Sumit Kumar\nSession: 7\nCode: OR(I)\n\nRaw: OR
  (I)-7
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OR(I)-7 (Operations Research - I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-7)
+SUMMARY:BS-7 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260508T123000
 DTEND;TZID=Asia/Kolkata:20260508T140000
 UID:c77689911cf4d24d6670429a7ac871d3@iimutimetable
@@ -875,9 +1272,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 7\nCode: BS\n\nRaw: BS-7
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-7 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OB - Organizational Behaviour (OB Quiz - 2)
+SUMMARY:OB Quiz - 2 (Organizational Behaviour)
 DTSTART;TZID=Asia/Kolkata:20260508T150000
 DTEND;TZID=Asia/Kolkata:20260508T163000
 UID:dd6ce1a6c31167e3d87de0718e0c28b7@iimutimetable
@@ -886,10 +1288,15 @@ DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: Quiz-2\nCode: OB\n\nRaw
  : OB Quiz - 2
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OB Quiz - 2 (Organizational Behaviour) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM 
- Guest Session (10.00-11.30am\, Online))
+SUMMARY:FRACM Guest Session (10.00-11.30am\, Online) (Financial Reporting 
+ and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260510T100000
 DTEND;TZID=Asia/Kolkata:20260510T113000
 UID:851660e3b41b10af5ef24c4b75eb7695@iimutimetable
@@ -898,9 +1305,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 11\nCode: FRACM\n\nRaw
  : FRACM Guest Session (10.00-11.30am\, Online)
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM Guest Session (10.00-11.30am\, Online) (Financial Report
+ ing and Analysis & Cost Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OM - Operations Management (OM-9)
+SUMMARY:OM-9 (Operations Management)
 DTSTART;TZID=Asia/Kolkata:20260511T090000
 DTEND;TZID=Asia/Kolkata:20260511T103000
 UID:3bddb37dd217558521e4ccd0b6e691ee@iimutimetable
@@ -909,9 +1322,14 @@ DESCRIPTION:Faculty: Prof. Sreejith Krishnakumar\nSession: 9\nCode: OM\n\n
  Raw: OM-9
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OM-9 (Operations Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-7)
+SUMMARY:EM-7 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260511T104500
 DTEND;TZID=Asia/Kolkata:20260511T121500
 UID:cddf4dc060ae630c0980890170b9bf27@iimutimetable
@@ -920,9 +1338,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 7\nCode: EM\n\nRaw: E
  M-7
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-7 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OR(I) - Operations Research - I (OR(I)-8)
+SUMMARY:OR(I)-8 (Operations Research - I)
 DTSTART;TZID=Asia/Kolkata:20260511T123000
 DTEND;TZID=Asia/Kolkata:20260511T140000
 UID:bded0569aaa8db5ec1d9e51917062db5@iimutimetable
@@ -931,9 +1354,14 @@ DESCRIPTION:Faculty: Prof. Sumit Kumar\nSession: 8\nCode: OR(I)\n\nRaw: OR
  (I)-8
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OR(I)-8 (Operations Research - I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-8)
+SUMMARY:BS-8 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260511T150000
 DTEND;TZID=Asia/Kolkata:20260511T163000
 UID:9d8016287967831492cee3637c3a905a@iimutimetable
@@ -941,9 +1369,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 8\nCode: BS\n\nRaw: BS-8
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-8 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OM - Operations Management (OM-10)
+SUMMARY:OM-10 (Operations Management)
 DTSTART;TZID=Asia/Kolkata:20260512T090000
 DTEND;TZID=Asia/Kolkata:20260512T103000
 UID:d2218c3f0d229c2336cc12b2673e3963@iimutimetable
@@ -952,9 +1385,14 @@ DESCRIPTION:Faculty: Prof. Sreejith Krishnakumar\nSession: 10\nCode: OM\n\
  nRaw: OM-10
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OM-10 (Operations Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-8)
+SUMMARY:EM-8 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260512T104500
 DTEND;TZID=Asia/Kolkata:20260512T121500
 UID:71a6cef7e23c6be719e6392c15a50d23@iimutimetable
@@ -963,9 +1401,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 8\nCode: EM\n\nRaw: E
  M-8
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-8 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OR(I) - Operations Research - I (OR(I)-9)
+SUMMARY:OR(I)-9 (Operations Research - I)
 DTSTART;TZID=Asia/Kolkata:20260512T123000
 DTEND;TZID=Asia/Kolkata:20260512T140000
 UID:3f482338be6744774aa049c7e19c60dd@iimutimetable
@@ -974,9 +1417,14 @@ DESCRIPTION:Faculty: Prof. Sumit Kumar\nSession: 9\nCode: OR(I)\n\nRaw: OR
  (I)-9
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OR(I)-9 (Operations Research - I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-9)
+SUMMARY:EM-9 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260513T104500
 DTEND;TZID=Asia/Kolkata:20260513T121500
 UID:91778ad6a4fe94b069ad3c24ca271a77@iimutimetable
@@ -985,9 +1433,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 9\nCode: EM\n\nRaw: E
  M-9
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-9 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OR(I) - Operations Research - I (OR(I)-10)
+SUMMARY:OR(I)-10 (Operations Research - I)
 DTSTART;TZID=Asia/Kolkata:20260513T123000
 DTEND;TZID=Asia/Kolkata:20260513T140000
 UID:960a938776c3c7fe94a3e025a11ecd28@iimutimetable
@@ -996,9 +1449,14 @@ DESCRIPTION:Faculty: Prof. Sumit Kumar\nSession: 10\nCode: OR(I)\n\nRaw: O
  R(I)-10
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OR(I)-10 (Operations Research - I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-9)
+SUMMARY:BS-9 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260514T123000
 DTEND;TZID=Asia/Kolkata:20260514T140000
 UID:d56b2da5aaf52018242052142ec0289c@iimutimetable
@@ -1006,9 +1464,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 9\nCode: BS\n\nRaw: BS-9
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-9 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ADV - Agile & DevOps (ADV-3)
+SUMMARY:ADV-3 (Agile & DevOps)
 DTSTART;TZID=Asia/Kolkata:20260514T150000
 DTEND;TZID=Asia/Kolkata:20260514T163000
 UID:b56696ac7279fcabea46f7df2bc2d23a@iimutimetable
@@ -1017,9 +1480,14 @@ DESCRIPTION:Faculty: Prof. Subbi Lakshmanan\nSession: 3\nCode: ADV\n\nRaw:
   ADV-3
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ADV-3 (Agile & DevOps) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ADV - Agile & DevOps (ADV-4)
+SUMMARY:ADV-4 (Agile & DevOps)
 DTSTART;TZID=Asia/Kolkata:20260515T090000
 DTEND;TZID=Asia/Kolkata:20260515T103000
 UID:21ba26b087f0a115444ed66ef1ac2822@iimutimetable
@@ -1028,9 +1496,14 @@ DESCRIPTION:Faculty: Prof. Subbi Lakshmanan\nSession: 4\nCode: ADV\n\nRaw:
   ADV-4
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ADV-4 (Agile & DevOps) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-10)
+SUMMARY:BS-10 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260515T123000
 DTEND;TZID=Asia/Kolkata:20260515T140000
 UID:64743225ad4e0778e31e0aee6a143ba5@iimutimetable
@@ -1038,10 +1511,15 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 10\nCode: BS\n\nRaw: BS-10
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-10 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM 
- Exams 10.00 AM)
+SUMMARY:FRACM Exams 10.00 AM (Financial Reporting and Analysis & Cost Mana
+ gement)
 DTSTART;TZID=Asia/Kolkata:20260518T090000
 DTEND;TZID=Asia/Kolkata:20260518T103000
 UID:48c6c20c4481870bbb1ac12e8067dd0a@iimutimetable
@@ -1050,9 +1528,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: Exam\nCode: FRACM\n\nR
  aw: FRACM Exams 10.00 AM
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM Exams 10.00 AM (Financial Reporting and Analysis & Cost 
+ Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OR(I) - Operations Research - I (OR-I Exams 10.00 AM)
+SUMMARY:OR-I Exams 10.00 AM (Operations Research - I)
 DTSTART;TZID=Asia/Kolkata:20260519T090000
 DTEND;TZID=Asia/Kolkata:20260519T103000
 UID:480465b58156976e125019f8cef6ca45@iimutimetable
@@ -1061,9 +1545,15 @@ DESCRIPTION:Faculty: Prof. Sumit Kumar\nSession: Exam\nCode: OR(I)\n\nRaw:
   OR-I Exams 10.00 AM
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OR-I Exams 10.00 AM (Operations Research - I) starting in 5 mi
+ nutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OM - Operations Management (OM Exams 10.00 AM)
+SUMMARY:OM Exams 10.00 AM (Operations Management)
 DTSTART;TZID=Asia/Kolkata:20260520T090000
 DTEND;TZID=Asia/Kolkata:20260520T103000
 UID:751feaa104af0a6f19866e2a15cbb663@iimutimetable
@@ -1072,9 +1562,15 @@ DESCRIPTION:Faculty: Prof. Sreejith Krishnakumar\nSession: Exam\nCode: OM\
  n\nRaw: OM Exams 10.00 AM
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OM Exams 10.00 AM (Operations Management) starting in 5 minute
+ s
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS Exams 10.00 AM)
+SUMMARY:BS Exams 10.00 AM (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260521T090000
 DTEND;TZID=Asia/Kolkata:20260521T103000
 UID:3ff81acb992b9ce411749d100725e29c@iimutimetable
@@ -1083,9 +1579,14 @@ DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: Exam\nCode: BS\n\nRaw: BS
  Exams 10.00 AM
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS Exams 10.00 AM (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM Exams 10.00 AM)
+SUMMARY:EM Exams 10.00 AM (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260522T090000
 DTEND;TZID=Asia/Kolkata:20260522T103000
 UID:410dd376d03aac04ee25a4d88496763a@iimutimetable
@@ -1094,9 +1595,15 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: Exam\nCode: EM\n\nRaw
  : EM Exams 10.00 AM
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM Exams 10.00 AM (Economics for Managers) starting in 5 minut
+ es
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:OB - Organizational Behaviour (OB Exams 10.00 AM)
+SUMMARY:OB Exams 10.00 AM (Organizational Behaviour)
 DTSTART;TZID=Asia/Kolkata:20260523T090000
 DTEND;TZID=Asia/Kolkata:20260523T103000
 UID:feabde4e049cde86a12df6cd40f9f43b@iimutimetable
@@ -1105,9 +1612,15 @@ DESCRIPTION:Faculty: Prof. Dina Banerjee\nSession: Exam\nCode: OB\n\nRaw:
  OB Exams 10.00 AM
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OB Exams 10.00 AM (Organizational Behaviour) starting in 5 min
+ utes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-10)
+SUMMARY:EM-10 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260525T090000
 DTEND;TZID=Asia/Kolkata:20260525T103000
 UID:0a936d70742044d7b6a14226e717dab2@iimutimetable
@@ -1116,10 +1629,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 10\nCode: EM\n\nRaw:
  EM-10
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-10 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 11)
+SUMMARY:FRACM-11 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260525T104500
 DTEND;TZID=Asia/Kolkata:20260525T121500
 UID:04bd5c03622cf8632ccb841acc06744c@iimutimetable
@@ -1128,9 +1645,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 11\nCode: FRACM\n\nRaw
  : FRACM-11
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-11 (Financial Reporting and Analysis & Cost Management) 
+ starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MM - Marketing Management (MM-intro)
+SUMMARY:MM-intro (Marketing Management)
 DTSTART;TZID=Asia/Kolkata:20260525T123000
 DTEND;TZID=Asia/Kolkata:20260525T140000
 UID:3bd4e6a8636becdd8b050f1a686520a6@iimutimetable
@@ -1138,9 +1661,14 @@ CATEGORIES:MM
 DESCRIPTION:Faculty: Prof. Jayant Nasa\nCode: MM\n\nRaw: MM-intro
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MM-intro (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-11)
+SUMMARY:BS-11 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260525T150000
 DTEND;TZID=Asia/Kolkata:20260525T163000
 UID:124b76303490360f03014646eac6d86a@iimutimetable
@@ -1148,9 +1676,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 11\nCode: BS\n\nRaw: BS-11
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-11 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-11)
+SUMMARY:EM-11 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260526T090000
 DTEND;TZID=Asia/Kolkata:20260526T103000
 UID:2cd2f7ef39500132d5bbf96c0fb23c41@iimutimetable
@@ -1159,10 +1692,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 11\nCode: EM\n\nRaw:
  EM-11
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-11 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 12)
+SUMMARY:FRACM-12 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260526T104500
 DTEND;TZID=Asia/Kolkata:20260526T121500
 UID:668ce5ead8926c321cba42c31462f07a@iimutimetable
@@ -1171,9 +1708,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 12\nCode: FRACM\n\nRaw
  : FRACM-12
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-12 (Financial Reporting and Analysis & Cost Management) 
+ starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MM - Marketing Management (MM-1)
+SUMMARY:MM-1 (Marketing Management)
 DTSTART;TZID=Asia/Kolkata:20260526T123000
 DTEND;TZID=Asia/Kolkata:20260526T140000
 UID:474bfd9645b732c9488f2ea0672a7dd5@iimutimetable
@@ -1181,9 +1724,14 @@ CATEGORIES:MM
 DESCRIPTION:Faculty: Prof. Jayant Nasa\nSession: 1\nCode: MM\n\nRaw: MM-1
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MM-1 (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CF - Corporate Finance (CF-1)
+SUMMARY:CF-1 (Corporate Finance)
 DTSTART;TZID=Asia/Kolkata:20260526T150000
 DTEND;TZID=Asia/Kolkata:20260526T163000
 UID:d7e738157f7639e1205f7eec9b8468b8@iimutimetable
@@ -1192,6 +1740,11 @@ DESCRIPTION:Faculty: Prof. Shobhit Aggarwal\nSession: 1\nCode: CF\n\nRaw:
  CF-1
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CF-1 (Corporate Finance) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Id-UL-Zuha (Holiday)
@@ -1202,10 +1755,14 @@ CATEGORIES:Special
 DESCRIPTION:Code: ID\n\nRaw: Id-UL-Zuha (Holiday)
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Id-UL-Zuha (Holiday) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 14)
+SUMMARY:FRACM-14 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260528T090000
 DTEND;TZID=Asia/Kolkata:20260528T103000
 UID:60ce8a4e074807a89e131a5e2aa9f877@iimutimetable
@@ -1214,9 +1771,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 14\nCode: FRACM\n\nRaw
  : FRACM-14
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-14 (Financial Reporting and Analysis & Cost Management) 
+ starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-12)
+SUMMARY:BS-12 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260528T104500
 DTEND;TZID=Asia/Kolkata:20260528T121500
 UID:0dfd0d657bd44cb63ca3cf8eb3167d3e@iimutimetable
@@ -1224,9 +1787,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 12\nCode: BS\n\nRaw: BS-12
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-12 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ADV - Agile & DevOps (ADV-5)
+SUMMARY:ADV-5 (Agile & DevOps)
 DTSTART;TZID=Asia/Kolkata:20260528T150000
 DTEND;TZID=Asia/Kolkata:20260528T163000
 UID:6326b8a199722d459e5b751c929a5407@iimutimetable
@@ -1235,9 +1803,14 @@ DESCRIPTION:Faculty: Prof. Subbi Lakshmanan\nSession: 5\nCode: ADV\n\nRaw:
   ADV-5
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ADV-5 (Agile & DevOps) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ADV - Agile & DevOps (ADV-6)
+SUMMARY:ADV-6 (Agile & DevOps)
 DTSTART;TZID=Asia/Kolkata:20260529T090000
 DTEND;TZID=Asia/Kolkata:20260529T103000
 UID:c974282314ff634a6f3be4e58b5b9810@iimutimetable
@@ -1246,9 +1819,14 @@ DESCRIPTION:Faculty: Prof. Subbi Lakshmanan\nSession: 6\nCode: ADV\n\nRaw:
   ADV-6
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ADV-6 (Agile & DevOps) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-13)
+SUMMARY:BS-13 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260529T104500
 DTEND;TZID=Asia/Kolkata:20260529T121500
 UID:3df873437389a6141c5444b68d0bce4a@iimutimetable
@@ -1256,9 +1834,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 13\nCode: BS\n\nRaw: BS-13
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-13 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MM - Marketing Management (MM-2)
+SUMMARY:MM-2 (Marketing Management)
 DTSTART;TZID=Asia/Kolkata:20260529T123000
 DTEND;TZID=Asia/Kolkata:20260529T140000
 UID:8a93af7d044905150374216204fd2253@iimutimetable
@@ -1266,9 +1849,14 @@ CATEGORIES:MM
 DESCRIPTION:Faculty: Prof. Jayant Nasa\nSession: 2\nCode: MM\n\nRaw: MM-2
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MM-2 (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CF - Corporate Finance (CF-2)
+SUMMARY:CF-2 (Corporate Finance)
 DTSTART;TZID=Asia/Kolkata:20260529T150000
 DTEND;TZID=Asia/Kolkata:20260529T163000
 UID:a265f5e755b5076121532695c140945a@iimutimetable
@@ -1277,9 +1865,14 @@ DESCRIPTION:Faculty: Prof. Shobhit Aggarwal\nSession: 2\nCode: CF\n\nRaw:
  CF-2
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CF-2 (Corporate Finance) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-12)
+SUMMARY:EM-12 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260601T104500
 DTEND;TZID=Asia/Kolkata:20260601T121500
 UID:de2b872a9a6d945a0b914122dbb28e57@iimutimetable
@@ -1288,9 +1881,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 12\nCode: EM\n\nRaw:
  EM-12
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-12 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MM - Marketing Management (MM-3)
+SUMMARY:MM-3 (Marketing Management)
 DTSTART;TZID=Asia/Kolkata:20260601T123000
 DTEND;TZID=Asia/Kolkata:20260601T140000
 UID:6a0222693f0230543058f8f143ca9c2f@iimutimetable
@@ -1298,9 +1896,14 @@ CATEGORIES:MM
 DESCRIPTION:Faculty: Prof. Jayant Nasa\nSession: 3\nCode: MM\n\nRaw: MM-3
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MM-3 (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CF - Corporate Finance (CF-3)
+SUMMARY:CF-3 (Corporate Finance)
 DTSTART;TZID=Asia/Kolkata:20260601T150000
 DTEND;TZID=Asia/Kolkata:20260601T163000
 UID:95006d9f1d2918d2bd869bef6e1b92ba@iimutimetable
@@ -1309,9 +1912,14 @@ DESCRIPTION:Faculty: Prof. Shobhit Aggarwal\nSession: 3\nCode: CF\n\nRaw:
  CF-3
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CF-3 (Corporate Finance) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-13)
+SUMMARY:EM-13 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260602T104500
 DTEND;TZID=Asia/Kolkata:20260602T121500
 UID:e6c46abfd78622746cd11f260a804763@iimutimetable
@@ -1320,9 +1928,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 13\nCode: EM\n\nRaw:
  EM-13
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-13 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-14)
+SUMMARY:EM-14 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260603T104500
 DTEND;TZID=Asia/Kolkata:20260603T121500
 UID:66a718ff6fe56a104ad94d7ba826a365@iimutimetable
@@ -1331,9 +1944,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 14\nCode: EM\n\nRaw:
  EM-14
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-14 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MM - Marketing Management (MM-4)
+SUMMARY:MM-4 (Marketing Management)
 DTSTART;TZID=Asia/Kolkata:20260603T123000
 DTEND;TZID=Asia/Kolkata:20260603T140000
 UID:f810c92d1e14f102b9a79a6f773150b2@iimutimetable
@@ -1341,9 +1959,14 @@ CATEGORIES:MM
 DESCRIPTION:Faculty: Prof. Jayant Nasa\nSession: 4\nCode: MM\n\nRaw: MM-4
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MM-4 (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CF - Corporate Finance (CF-4)
+SUMMARY:CF-4 (Corporate Finance)
 DTSTART;TZID=Asia/Kolkata:20260603T150000
 DTEND;TZID=Asia/Kolkata:20260603T163000
 UID:d7bd5384441082ffb693f2bbe258030a@iimutimetable
@@ -1352,9 +1975,14 @@ DESCRIPTION:Faculty: Prof. Shobhit Aggarwal\nSession: 4\nCode: CF\n\nRaw:
  CF-4
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CF-4 (Corporate Finance) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-14)
+SUMMARY:BS-14 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260604T104500
 DTEND;TZID=Asia/Kolkata:20260604T121500
 UID:753629dfe3d40694c875992504d1cf2a@iimutimetable
@@ -1362,9 +1990,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 14\nCode: BS\n\nRaw: BS-14
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-14 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-15)
+SUMMARY:BS-15 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260605T104500
 DTEND;TZID=Asia/Kolkata:20260605T121500
 UID:48771e9ab8d1b5b7e0f3106117311b9c@iimutimetable
@@ -1372,9 +2005,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 15\nCode: BS\n\nRaw: BS-15
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-15 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MM - Marketing Management (MM-5)
+SUMMARY:MM-5 (Marketing Management)
 DTSTART;TZID=Asia/Kolkata:20260605T123000
 DTEND;TZID=Asia/Kolkata:20260605T140000
 UID:90365b36daf1c7dd53745eb633fa61ec@iimutimetable
@@ -1382,9 +2020,14 @@ CATEGORIES:MM
 DESCRIPTION:Faculty: Prof. Jayant Nasa\nSession: 5\nCode: MM\n\nRaw: MM-5
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MM-5 (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CF - Corporate Finance (CF-5)
+SUMMARY:CF-5 (Corporate Finance)
 DTSTART;TZID=Asia/Kolkata:20260605T150000
 DTEND;TZID=Asia/Kolkata:20260605T163000
 UID:9b6c66d8b0496daecf4cf7d8cfe92ddc@iimutimetable
@@ -1393,10 +2036,15 @@ DESCRIPTION:Faculty: Prof. Shobhit Aggarwal\nSession: 5\nCode: CF\n\nRaw:
  CF-5
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CF-5 (Corporate Finance) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ETB - Emerging Technologies for Business - Workshop (ET Workshop :
-  UX-UI Design (10:00am - 01:00pm))
+SUMMARY:ET Workshop : UX-UI Design (10:00am - 01:00pm) (Emerging Technolog
+ ies for Business - Workshop)
 DTSTART;TZID=Asia/Kolkata:20260606T100000
 DTEND;TZID=Asia/Kolkata:20260606T130000
 UID:9aed9747eb3a5b4600e2ca9d88e98287@iimutimetable
@@ -1405,10 +2053,16 @@ DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop
  : UX-UI Design (10:00am - 01:00pm)
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ET Workshop : UX-UI Design (10:00am - 01:00pm) (Emerging Techn
+ ologies for Business - Workshop) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ETB - Emerging Technologies for Business - Workshop (ET Workshop :
-  Tech Development (10:00am - 01:00pm))
+SUMMARY:ET Workshop : Tech Development (10:00am - 01:00pm) (Emerging Techn
+ ologies for Business - Workshop)
 DTSTART;TZID=Asia/Kolkata:20260607T100000
 DTEND;TZID=Asia/Kolkata:20260607T130000
 UID:ee7c8b466e852a6c01e221fe9480d30c@iimutimetable
@@ -1417,9 +2071,15 @@ DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop
  : Tech Development (10:00am - 01:00pm)
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ET Workshop : Tech Development (10:00am - 01:00pm) (Emerging T
+ echnologies for Business - Workshop) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-15)
+SUMMARY:EM-15 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260608T104500
 DTEND;TZID=Asia/Kolkata:20260608T121500
 UID:209bcbe1073f8751f974b12ef74358b5@iimutimetable
@@ -1428,10 +2088,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 15\nCode: EM\n\nRaw:
  EM-15
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-15 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 15)
+SUMMARY:FRACM-15 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260608T123000
 DTEND;TZID=Asia/Kolkata:20260608T140000
 UID:34e602c27a90432c12ba75c68b3d964e@iimutimetable
@@ -1440,9 +2104,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 15\nCode: FRACM\n\nRaw
  : FRACM-15
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-15 (Financial Reporting and Analysis & Cost Management) 
+ starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CF - Corporate Finance (CF-6)
+SUMMARY:CF-6 (Corporate Finance)
 DTSTART;TZID=Asia/Kolkata:20260608T150000
 DTEND;TZID=Asia/Kolkata:20260608T163000
 UID:eced8ce91aeeb766a49d8e3a05320fe1@iimutimetable
@@ -1451,9 +2121,14 @@ DESCRIPTION:Faculty: Prof. Shobhit Aggarwal\nSession: 6\nCode: CF\n\nRaw:
  CF-6
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CF-6 (Corporate Finance) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-16)
+SUMMARY:EM-16 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260609T104500
 DTEND;TZID=Asia/Kolkata:20260609T121500
 UID:6b2e65c862f9476a01a7edd534d6b399@iimutimetable
@@ -1462,10 +2137,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 16\nCode: EM\n\nRaw:
  EM-16
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-16 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 16)
+SUMMARY:FRACM-16 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260609T123000
 DTEND;TZID=Asia/Kolkata:20260609T140000
 UID:5f19e844bc3d33350baa77ff4eaed9cb@iimutimetable
@@ -1474,9 +2153,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 16\nCode: FRACM\n\nRaw
  : FRACM-16
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-16 (Financial Reporting and Analysis & Cost Management) 
+ starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-16)
+SUMMARY:BS-16 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260610T090000
 DTEND;TZID=Asia/Kolkata:20260610T103000
 UID:64220c301a8d5dc887e1a2af15156157@iimutimetable
@@ -1484,10 +2169,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 16\nCode: BS\n\nRaw: BS-16
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-16 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 17)
+SUMMARY:FRACM-17 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260610T104500
 DTEND;TZID=Asia/Kolkata:20260610T121500
 UID:e04c01bef2db5d910c3c800ae7d36550@iimutimetable
@@ -1496,9 +2185,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 17\nCode: FRACM\n\nRaw
  : FRACM-17
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-17 (Financial Reporting and Analysis & Cost Management) 
+ starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MM - Marketing Management (MM-6)
+SUMMARY:MM-6 (Marketing Management)
 DTSTART;TZID=Asia/Kolkata:20260610T123000
 DTEND;TZID=Asia/Kolkata:20260610T140000
 UID:2e964c6b80b78b39b4e6e10b4e147f7b@iimutimetable
@@ -1506,9 +2201,14 @@ CATEGORIES:MM
 DESCRIPTION:Faculty: Prof. Jayant Nasa\nSession: 6\nCode: MM\n\nRaw: MM-6
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MM-6 (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CF - Corporate Finance (CF-7)
+SUMMARY:CF-7 (Corporate Finance)
 DTSTART;TZID=Asia/Kolkata:20260610T150000
 DTEND;TZID=Asia/Kolkata:20260610T163000
 UID:1a22a2f0afbd027abb9083d31ed06b8b@iimutimetable
@@ -1517,9 +2217,14 @@ DESCRIPTION:Faculty: Prof. Shobhit Aggarwal\nSession: 7\nCode: CF\n\nRaw:
  CF-7
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CF-7 (Corporate Finance) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-17)
+SUMMARY:BS-17 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260611T104500
 DTEND;TZID=Asia/Kolkata:20260611T121500
 UID:0694f8cd2b675cf384b970f0c807a8fe@iimutimetable
@@ -1527,9 +2232,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 17\nCode: BS\n\nRaw: BS-17
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-17 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-17)
+SUMMARY:EM-17 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260611T123000
 DTEND;TZID=Asia/Kolkata:20260611T140000
 UID:1d382668ba2914912299c6363663583f@iimutimetable
@@ -1538,9 +2248,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 17\nCode: EM\n\nRaw:
  EM-17
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-17 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ADV - Agile & DevOps (ADV-7)
+SUMMARY:ADV-7 (Agile & DevOps)
 DTSTART;TZID=Asia/Kolkata:20260611T150000
 DTEND;TZID=Asia/Kolkata:20260611T163000
 UID:d48577fdaae916544c867da2e9d8a05c@iimutimetable
@@ -1549,9 +2264,14 @@ DESCRIPTION:Faculty: Prof. Subbi Lakshmanan\nSession: 7\nCode: ADV\n\nRaw:
   ADV-7
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ADV-7 (Agile & DevOps) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ADV - Agile & DevOps (ADV-8)
+SUMMARY:ADV-8 (Agile & DevOps)
 DTSTART;TZID=Asia/Kolkata:20260612T090000
 DTEND;TZID=Asia/Kolkata:20260612T103000
 UID:7849a72765438d0bc4887ec9bbc71e66@iimutimetable
@@ -1560,9 +2280,14 @@ DESCRIPTION:Faculty: Prof. Subbi Lakshmanan\nSession: 8\nCode: ADV\n\nRaw:
   ADV-8
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ADV-8 (Agile & DevOps) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-18)
+SUMMARY:BS-18 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260612T104500
 DTEND;TZID=Asia/Kolkata:20260612T121500
 UID:e1743629233535e2f2e2c4e675bae032@iimutimetable
@@ -1570,9 +2295,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 18\nCode: BS\n\nRaw: BS-18
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-18 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MM - Marketing Management (MM-7)
+SUMMARY:MM-7 (Marketing Management)
 DTSTART;TZID=Asia/Kolkata:20260612T123000
 DTEND;TZID=Asia/Kolkata:20260612T140000
 UID:06a495d6dcec9b848be96c26ecadb92d@iimutimetable
@@ -1580,10 +2310,15 @@ CATEGORIES:MM
 DESCRIPTION:Faculty: Prof. Jayant Nasa\nSession: 7\nCode: MM\n\nRaw: MM-7
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MM-7 (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ETB - Emerging Technologies for Business - Workshop (ET Workshop :
-  Gamification for stickiness (10:00am - 01:00pm))
+SUMMARY:ET Workshop : Gamification for stickiness (10:00am - 01:00pm) (Eme
+ rging Technologies for Business - Workshop)
 DTSTART;TZID=Asia/Kolkata:20260613T100000
 DTEND;TZID=Asia/Kolkata:20260613T130000
 UID:53ecf2e0690c64ac27ccee5cabcd0752@iimutimetable
@@ -1592,9 +2327,15 @@ DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop
  : Gamification for stickiness (10:00am - 01:00pm)
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ET Workshop : Gamification for stickiness (10:00am - 01:00pm) 
+ (Emerging Technologies for Business - Workshop) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-18)
+SUMMARY:EM-18 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260615T090000
 DTEND;TZID=Asia/Kolkata:20260615T103000
 UID:52be2252c0b21afd91e0e261f43329df@iimutimetable
@@ -1603,10 +2344,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 18\nCode: EM\n\nRaw:
  EM-18
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-18 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 18)
+SUMMARY:FRACM-18 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260615T104500
 DTEND;TZID=Asia/Kolkata:20260615T121500
 UID:2a02e8747a39295dc2bd7f3be7b6aa5b@iimutimetable
@@ -1615,9 +2360,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 18\nCode: FRACM\n\nRaw
  : FRACM-18
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-18 (Financial Reporting and Analysis & Cost Management) 
+ starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MM - Marketing Management (MM-8)
+SUMMARY:MM-8 (Marketing Management)
 DTSTART;TZID=Asia/Kolkata:20260615T123000
 DTEND;TZID=Asia/Kolkata:20260615T140000
 UID:b9a24670db21623205b35f05d0ca4895@iimutimetable
@@ -1625,9 +2376,14 @@ CATEGORIES:MM
 DESCRIPTION:Faculty: Prof. Jayant Nasa\nSession: 8\nCode: MM\n\nRaw: MM-8
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MM-8 (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CF - Corporate Finance (CF-8)
+SUMMARY:CF-8 (Corporate Finance)
 DTSTART;TZID=Asia/Kolkata:20260615T150000
 DTEND;TZID=Asia/Kolkata:20260615T163000
 UID:b3177f5d94ee465e87cfc8bb670d06ca@iimutimetable
@@ -1636,9 +2392,14 @@ DESCRIPTION:Faculty: Prof. Shobhit Aggarwal\nSession: 8\nCode: CF\n\nRaw:
  CF-8
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CF-8 (Corporate Finance) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-19)
+SUMMARY:EM-19 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260616T090000
 DTEND;TZID=Asia/Kolkata:20260616T103000
 UID:bbdcb9d983c047d579a5102d7d11d503@iimutimetable
@@ -1647,10 +2408,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 19\nCode: EM\n\nRaw:
  EM-19
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-19 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 19)
+SUMMARY:FRACM-19 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260616T104500
 DTEND;TZID=Asia/Kolkata:20260616T121500
 UID:03fbbeb4244a694594a87a3e1acb2b8b@iimutimetable
@@ -1659,9 +2424,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 19\nCode: FRACM\n\nRaw
  : FRACM-19
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-19 (Financial Reporting and Analysis & Cost Management) 
+ starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM-20)
+SUMMARY:EM-20 (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260617T090000
 DTEND;TZID=Asia/Kolkata:20260617T103000
 UID:5c1f09da516067c7e95bdc2cd956d0ca@iimutimetable
@@ -1670,10 +2441,14 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: 20\nCode: EM\n\nRaw:
  EM-20
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM-20 (Economics for Managers) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM-
- 20)
+SUMMARY:FRACM-20 (Financial Reporting and Analysis & Cost Management)
 DTSTART;TZID=Asia/Kolkata:20260617T104500
 DTEND;TZID=Asia/Kolkata:20260617T121500
 UID:193f0ca83e70773e32a5b6d2ce851ad8@iimutimetable
@@ -1682,9 +2457,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: 20\nCode: FRACM\n\nRaw
  : FRACM-20
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM-20 (Financial Reporting and Analysis & Cost Management) 
+ starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MM - Marketing Management (MM-9)
+SUMMARY:MM-9 (Marketing Management)
 DTSTART;TZID=Asia/Kolkata:20260617T123000
 DTEND;TZID=Asia/Kolkata:20260617T140000
 UID:a673804b75942528f6f1a287b02e30c3@iimutimetable
@@ -1692,9 +2473,14 @@ CATEGORIES:MM
 DESCRIPTION:Faculty: Prof. Jayant Nasa\nSession: 9\nCode: MM\n\nRaw: MM-9
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MM-9 (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CF - Corporate Finance (CF-9)
+SUMMARY:CF-9 (Corporate Finance)
 DTSTART;TZID=Asia/Kolkata:20260617T150000
 DTEND;TZID=Asia/Kolkata:20260617T163000
 UID:04d61624f8f95f400d7e946c5595d49c@iimutimetable
@@ -1703,9 +2489,14 @@ DESCRIPTION:Faculty: Prof. Shobhit Aggarwal\nSession: 9\nCode: CF\n\nRaw:
  CF-9
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CF-9 (Corporate Finance) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-19)
+SUMMARY:BS-19 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260618T104500
 DTEND;TZID=Asia/Kolkata:20260618T121500
 UID:38c10d4be76f930589a01b2c2e120215@iimutimetable
@@ -1713,9 +2504,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 19\nCode: BS\n\nRaw: BS-19
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-19 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ADV - Agile & DevOps (ADV-9)
+SUMMARY:ADV-9 (Agile & DevOps)
 DTSTART;TZID=Asia/Kolkata:20260618T150000
 DTEND;TZID=Asia/Kolkata:20260618T163000
 UID:be98f8a78c9c0c9d8502ccc9f9bc8b9c@iimutimetable
@@ -1724,9 +2520,14 @@ DESCRIPTION:Faculty: Prof. Subbi Lakshmanan\nSession: 9\nCode: ADV\n\nRaw:
   ADV-9
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ADV-9 (Agile & DevOps) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ADV - Agile & DevOps (ADV-10)
+SUMMARY:ADV-10 (Agile & DevOps)
 DTSTART;TZID=Asia/Kolkata:20260619T090000
 DTEND;TZID=Asia/Kolkata:20260619T103000
 UID:35551ffd19d20aef2ba8412b1c22063c@iimutimetable
@@ -1735,9 +2536,14 @@ DESCRIPTION:Faculty: Prof. Subbi Lakshmanan\nSession: 10\nCode: ADV\n\nRaw
  : ADV-10
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ADV-10 (Agile & DevOps) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS-20)
+SUMMARY:BS-20 (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260619T104500
 DTEND;TZID=Asia/Kolkata:20260619T121500
 UID:bd8a518d61655bc4a493875e0c7a58f9@iimutimetable
@@ -1745,9 +2551,14 @@ CATEGORIES:BS
 DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: 20\nCode: BS\n\nRaw: BS-20
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS-20 (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MM - Marketing Management (MM-10)
+SUMMARY:MM-10 (Marketing Management)
 DTSTART;TZID=Asia/Kolkata:20260619T123000
 DTEND;TZID=Asia/Kolkata:20260619T140000
 UID:3ea8472f93202d1d8361ef6cb143ab4f@iimutimetable
@@ -1756,9 +2567,14 @@ DESCRIPTION:Faculty: Prof. Jayant Nasa\nSession: 10\nCode: MM\n\nRaw: MM-1
  0
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MM-10 (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CF - Corporate Finance (CF-10)
+SUMMARY:CF-10 (Corporate Finance)
 DTSTART;TZID=Asia/Kolkata:20260619T150000
 DTEND;TZID=Asia/Kolkata:20260619T163000
 UID:39bb1d7bbbf3961a827c38ee02f20c61@iimutimetable
@@ -1767,9 +2583,14 @@ DESCRIPTION:Faculty: Prof. Shobhit Aggarwal\nSession: 10\nCode: CF\n\nRaw:
   CF-10
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CF-10 (Corporate Finance) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ETB - Emerging Technologies for Business - Workshop (ET Workshop)
+SUMMARY:ET Workshop (Emerging Technologies for Business - Workshop)
 DTSTART;TZID=Asia/Kolkata:20260620T090000
 DTEND;TZID=Asia/Kolkata:20260620T103000
 UID:fc91a357ff68efe395372467b8634192@iimutimetable
@@ -1777,10 +2598,16 @@ CATEGORIES:Special
 DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ET Workshop (Emerging Technologies for Business - Workshop) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FRACM - Financial Reporting and Analysis & Cost Management (FRACM 
- Exams 10.00 AM)
+SUMMARY:FRACM Exams 10.00 AM (Financial Reporting and Analysis & Cost Mana
+ gement)
 DTSTART;TZID=Asia/Kolkata:20260622T090000
 DTEND;TZID=Asia/Kolkata:20260622T103000
 UID:237d85f579b08bd62de17bdca9cc64d9@iimutimetable
@@ -1789,9 +2616,15 @@ DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nSession: Exam\nCode: FRACM\n\nR
  aw: FRACM Exams 10.00 AM
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM Exams 10.00 AM (Financial Reporting and Analysis & Cost 
+ Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS - Business Statistics (BS Exams 10.00 AM)
+SUMMARY:BS Exams 10.00 AM (Business Statistics)
 DTSTART;TZID=Asia/Kolkata:20260623T090000
 DTEND;TZID=Asia/Kolkata:20260623T103000
 UID:6aa53ec4f11bd500dc7804451e7060c0@iimutimetable
@@ -1800,9 +2633,14 @@ DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: Exam\nCode: BS\n\nRaw: BS
  Exams 10.00 AM
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS Exams 10.00 AM (Business Statistics) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EM - Economics for Managers (EM Exams 10.00 AM)
+SUMMARY:EM Exams 10.00 AM (Economics for Managers)
 DTSTART;TZID=Asia/Kolkata:20260624T090000
 DTEND;TZID=Asia/Kolkata:20260624T103000
 UID:fe413fa371eef1ea7832f648ba1bb236@iimutimetable
@@ -1811,9 +2649,15 @@ DESCRIPTION:Faculty: Prof. Ashish Sachdeva\nSession: Exam\nCode: EM\n\nRaw
  : EM Exams 10.00 AM
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EM Exams 10.00 AM (Economics for Managers) starting in 5 minut
+ es
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MM - Marketing Management (MM Exams 10.00 AM)
+SUMMARY:MM Exams 10.00 AM (Marketing Management)
 DTSTART;TZID=Asia/Kolkata:20260625T090000
 DTEND;TZID=Asia/Kolkata:20260625T103000
 UID:d5c0cbfdfc36153b4ee54199ad44e2ca@iimutimetable
@@ -1822,9 +2666,14 @@ DESCRIPTION:Faculty: Prof. Jayant Nasa\nSession: Exam\nCode: MM\n\nRaw: MM
   Exams 10.00 AM
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MM Exams 10.00 AM (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CF - Corporate Finance (CF Exams 10.00 AM)
+SUMMARY:CF Exams 10.00 AM (Corporate Finance)
 DTSTART;TZID=Asia/Kolkata:20260626T090000
 DTEND;TZID=Asia/Kolkata:20260626T103000
 UID:b10c2598ade354d09706b421a024399b@iimutimetable
@@ -1833,5 +2682,10 @@ DESCRIPTION:Faculty: Prof. Shobhit Aggarwal\nSession: Exam\nCode: CF\n\nRa
  w: CF Exams 10.00 AM
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CF Exams 10.00 AM (Corporate Finance) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
 END:VEVENT
 END:VCALENDAR
