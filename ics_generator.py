@@ -16,7 +16,9 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
-from icalendar import Calendar, Event, vText, vDatetime
+from datetime import timedelta
+
+from icalendar import Alarm, Calendar, Event, vText, vDatetime
 
 from sheets import TimetableEvent
 
@@ -53,18 +55,17 @@ def _build_summary(event: TimetableEvent) -> str:
     """
     Human-readable summary shown as the event title in calendar apps.
 
-    Regular:  'OB - Organizational Behaviour (OB-1)'
-    Special:  'MOC - Managerial Oral Communication (MOC(B1) - S7)'
+    Regular:  'OB-1 (Organizational Behaviour)'
+    Special:  'MOC(B1) - S7 (Managerial Oral Communication)'
     Unmapped: raw cell text
     """
-    code = event.course_code
     name = event.course_name
 
     # If unmapped (name == cell_text) just return the cell text as-is
     if name == event.cell_text:
         return name
 
-    return f"{code} - {name} ({event.cell_text})"
+    return f"{event.cell_text} ({name})"
 
 
 def _build_description(event: TimetableEvent) -> str:
@@ -153,6 +154,13 @@ def _build_vevent(
         vevent.add("categories", ["Special"])
     else:
         vevent.add("categories", [event.course_code])
+
+    # 5-minute popup reminder with event name
+    alarm = Alarm()
+    alarm.add("action", "DISPLAY")
+    alarm.add("description", f"{_build_summary(event)} starting in 5 minutes")
+    alarm.add("trigger", timedelta(minutes=-5))
+    vevent.add_component(alarm)
 
     return vevent
 

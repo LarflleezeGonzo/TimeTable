@@ -101,7 +101,16 @@ def fetch_excel_from_drive(
 
     wb = openpyxl.load_workbook(buf, data_only=True)
     ws = wb.active
-    rows = [list(row) for row in ws.iter_rows(values_only=True)]
+    rows = []
+    for row in ws.iter_rows():
+        row_data = []
+        for cell in row:
+            # Treat struck-through cells as empty — they've been cancelled
+            if cell.font and cell.font.strike:
+                row_data.append(None)
+            else:
+                row_data.append(cell.value)
+        rows.append(row_data)
     logger.info("Downloaded Excel file from Drive: %d rows, sheet '%s'.", len(rows), ws.title)
     return pad_rows(rows)
 
