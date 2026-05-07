@@ -1343,6 +1343,24 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FRACM Doubt Clearing Session 10.30am - 12.00pm (Financial Reportin
+ g and Analysis & Cost Management)
+DTSTART;TZID=Asia/Kolkata:20260509T103000
+DTEND;TZID=Asia/Kolkata:20260509T120000
+UID:5492c13153da2e14d8064a13b8753778@iimutimetable
+CATEGORIES:FRACM
+DESCRIPTION:Faculty: Prof. Rajesh Agrawal\nCode: FRACM\n\nRaw: FRACM Doubt
+  Clearing Session 10.30am - 12.00pm
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FRACM Doubt Clearing Session 10.30am - 12.00pm (Financial Repo
+ rting and Analysis & Cost Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:OM-9 (Operations Management)
 DTSTART;TZID=Asia/Kolkata:20260511T090000
 DTEND;TZID=Asia/Kolkata:20260511T103000
