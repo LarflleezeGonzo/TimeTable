@@ -2,7 +2,9 @@ name: Sync Timetable
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # Daily at 2 AM UTC (7:30 AM IST)
+    - cron: '0 2 * * *'    # 7:30 AM IST
+    - cron: '25 4 * * *'   # 9:55 AM IST
+    - cron: '35 8 * * *'   # 2:05 PM IST
   workflow_dispatch:        # Manual trigger from GitHub Actions UI
 
 permissions:
