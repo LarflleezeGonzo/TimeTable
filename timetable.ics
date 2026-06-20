@@ -2952,35 +2952,35 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ADV Quiz-2\, 10.00 AM (Agile & DevOps)
-DTSTART;TZID=Asia/Kolkata:20260620T090000
-DTEND;TZID=Asia/Kolkata:20260620T103000
-UID:eb0e470d969fabb066aa107e863afde6@iimutimetable
+SUMMARY:ADV Quiz-2\, 10.00 AM - 11.00 AM (Agile & DevOps)
+DTSTART;TZID=Asia/Kolkata:20260620T100000
+DTEND;TZID=Asia/Kolkata:20260620T110000
+UID:9e93f655bb2ff7463b3abe8b3c2f0840@iimutimetable
 CATEGORIES:Special
 DESCRIPTION:Faculty: Prof. Subbi Lakshmanan\nSession: 2\nCode: ADV\n\nRaw:
-  ADV Quiz-2\, 10.00 AM
+  ADV Quiz-2\, 10.00 AM - 11.00 AM
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ADV Quiz-2\, 10.00 AM (Agile & DevOps) starting in 5 minutes
+DESCRIPTION:ADV Quiz-2\, 10.00 AM - 11.00 AM (Agile & DevOps) starting in 
+ 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BS Paper Showing 11.00am (Business Statistics)
+SUMMARY:CF Tutorial 11.05am (Corporate Finance)
 DTSTART;TZID=Asia/Kolkata:20260620T104500
 DTEND;TZID=Asia/Kolkata:20260620T121500
-UID:04acb3fe80460122ed1f9e6bd5bb4cb2@iimutimetable
-CATEGORIES:BS
-DESCRIPTION:Faculty: Prof. Ujjwal Das\nCode: BS\n\nRaw: BS Paper Showing 1
- 1.00am
+UID:467be559fb647ef95724c9ccee1ede40@iimutimetable
+CATEGORIES:CF
+DESCRIPTION:Faculty: Prof. Shobhit Aggarwal\nCode: CF\n\nRaw: CF Tutorial 
+ 11.05am
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:BS Paper Showing 11.00am (Business Statistics) starting in 5 m
- inutes
+DESCRIPTION:CF Tutorial 11.05am (Corporate Finance) starting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -2996,6 +2996,23 @@ STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:MM-Extra Session (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BS Paper Showing 3.00pm (Business Statistics)
+DTSTART;TZID=Asia/Kolkata:20260620T150000
+DTEND;TZID=Asia/Kolkata:20260620T163000
+UID:98bb7f0a2bc99ca1506ea58fc9b3e9e0@iimutimetable
+CATEGORIES:BS
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nCode: BS\n\nRaw: BS Paper Showing 3
+ .00pm
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BS Paper Showing 3.00pm (Business Statistics) starting in 5 mi
+ nutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
