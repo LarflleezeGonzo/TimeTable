@@ -152,13 +152,15 @@ def normalize_course_code(cell_text: str) -> str:
       'MOC(B1) - S7 (...)'  → 'MOC'
       'OR(I)-3'            → 'OR(I)'
       'OR-I Exams 10.00 AM' → 'OR(I)'
+      'AA(I) - S1'         → 'AA(I)'
+      'IoT-S1'             → 'IOT'
       'OB Quiz - 1'        → 'OB'
       'BS Exams 10.00 AM'  → 'BS'
       'ET Workshop'        → 'ETB'
     """
     text = cell_text.strip()
 
-    # MOC variants (must come before generic hyphen split because of parens)
+    # MOC variants (must come before generic parens handler)
     if re.match(r'^MOC\b', text, re.IGNORECASE):
         return 'MOC'
 
@@ -170,19 +172,19 @@ def normalize_course_code(cell_text: str) -> str:
     if re.match(r'^ET\s+Workshop', text, re.IGNORECASE):
         return 'ETB'
 
-    # OR(I)-N pattern — preserve parenthesized suffix
-    m = re.match(r'^(OR\([^)]+\))-', text)
+    # CODE(suffix) - ... e.g. OR(I)-3, AA(I) - S1 — preserve parenthesized suffix
+    m = re.match(r'^([A-Za-z]+\([^)]+\))\s*-', text)
     if m:
         return m.group(1).upper()
 
-    # Generic "CODE(suffix) - ..." → strip from first '('
-    m = re.match(r'^([A-Z]+)\s*\(', text, re.IGNORECASE)
+    # Generic CODE(suffix)... — strip suffix, return base code
+    m = re.match(r'^([A-Za-z]+)\s*\(', text)
     if m:
         code = m.group(1).upper()
         return _CODE_REMAP.get(code, code)
 
-    # "CODE - N" or "CODE Quiz - N" or "CODE Exams ..."
-    m = re.match(r'^([A-Z()]+)\s*[-\s]', text, re.IGNORECASE)
+    # "CODE - N", "CODE Quiz - N", "CODE Exams ..." — handles mixed-case codes like IoT
+    m = re.match(r'^([A-Za-z()]+)\s*[-\s]', text)
     if m:
         prefix = m.group(1).strip('-').upper()
         return _CODE_REMAP.get(prefix, prefix)

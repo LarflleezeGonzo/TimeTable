@@ -32,10 +32,11 @@ jobs:
           echo '${{ secrets.CREDENTIALS_JSON }}' > credentials.json
           echo '${{ secrets.TOKEN_JSON }}'        > token.json
 
-      - name: Sync timetable from Google Sheets
+      - name: Sync timetable
         env:
+          # SHEET_URL is referenced by timetable_sources.json (Term I url_env)
           SHEET_URL: ${{ secrets.SHEET_URL }}
-        run: uv run python sync_timetable.py --sheet-url "$SHEET_URL"
+        run: uv run python sync_timetable.py
 
       - name: Stage timetable.ics for deploy
         run: mkdir -p dist && cp timetable.ics dist/

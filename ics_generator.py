@@ -25,7 +25,7 @@ from sheets import TimetableEvent
 logger = logging.getLogger(__name__)
 
 _PRODID = "-//IIM Udaipur Timetable Sync//EN"
-_DEFAULT_CAL_NAME = "IIM Udaipur Term-I Timetable"
+_DEFAULT_CAL_NAME = "IIM Udaipur Timetable"
 
 
 # ---------------------------------------------------------------------------

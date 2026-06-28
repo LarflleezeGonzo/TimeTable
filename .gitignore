@@ -221,3 +221,7 @@ token.json
 timetable.ics
 timetable.ics.tmp
 .DS_Store
+
+# Timetable source spreadsheets (contain unpublished schedule data)
+*.xlsx
+*.xls

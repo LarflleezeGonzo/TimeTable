@@ -1,9 +1,11 @@
 """
 sync_timetable.py — CLI entry point for the timetable → .ics converter.
 
+Reads timetable_sources.json to discover all term sources, fetches each from
+Google Drive, merges the events, and writes a single timetable.ics.
 
 Usage:
-    uv run python sync_timetable.py --sheet-url <URL> [options]
+    uv run python sync_timetable.py [options]
 
 On first run a browser window opens for Google sign-in.
 Subsequent runs reuse the cached token silently.
@@ -12,6 +14,7 @@ Subsequent runs reuse the cached token silently.
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import os
 import sys
@@ -22,11 +25,102 @@ from dotenv import load_dotenv
 from auth import get_credentials
 from ics_generator import build_ics, write_ics
 from sheets import (
+    TimetableEvent,
     fetch_excel_from_drive,
     parse_calendar_grid,
     parse_course_map,
 )
 from utils import extract_spreadsheet_id, extract_year_from_metadata
+
+
+# ---------------------------------------------------------------------------
+# Sources loader
+# ---------------------------------------------------------------------------
+
+def load_sources(sources_file: str) -> list[dict]:
+    """
+    Load term sources from a JSON file.
+
+    Each entry must have a "term" name and either:
+      "url"     — literal Google Drive/Sheets URL or file ID
+      "url_env" — name of an environment variable that holds the URL
+
+    Entries whose URL cannot be resolved (missing env var) are skipped with
+    a warning so a partial sync still succeeds.
+    """
+    path = Path(sources_file)
+    if not path.exists():
+        return []
+
+    try:
+        entries = json.loads(path.read_text())
+    except (json.JSONDecodeError, OSError) as exc:
+        raise ValueError(f"Cannot parse {sources_file}: {exc}") from exc
+
+    resolved: list[dict] = []
+    for entry in entries:
+        term = entry.get("term", "Unknown")
+        url  = entry.get("url")
+        env  = entry.get("url_env")
+
+        if url:
+            resolved.append({"term": term, "url": url})
+        elif env:
+            val = os.environ.get(env, "").strip()
+            if val:
+                resolved.append({"term": term, "url": val})
+            else:
+                print(f"WARNING: {term} skipped — env var '{env}' is not set.")
+        else:
+            print(f"WARNING: {term} skipped — entry has neither 'url' nor 'url_env'.")
+
+    return resolved
+
+
+# ---------------------------------------------------------------------------
+# Per-term fetch + parse
+# ---------------------------------------------------------------------------
+
+def fetch_term_events(
+    term: str,
+    url: str,
+    credentials,
+    year_override: int | None,
+    location: str,
+) -> list[TimetableEvent]:
+    """Fetch one Drive file and return its parsed events."""
+    try:
+        spreadsheet_id = extract_spreadsheet_id(url)
+    except ValueError as exc:
+        print(f"ERROR [{term}]: bad URL — {exc}")
+        return []
+
+    print(f"[{term}] Downloading from Drive (file ID: {spreadsheet_id})…")
+    try:
+        rows = fetch_excel_from_drive(spreadsheet_id, credentials)
+    except PermissionError as exc:
+        print(f"ERROR [{term}]: {exc}")
+        return []
+    except FileNotFoundError as exc:
+        print(f"ERROR [{term}]: {exc}")
+        return []
+    except Exception as exc:
+        print(f"ERROR [{term}]: download failed — {exc}")
+        return []
+
+    print(f"[{term}] Fetched {len(rows)} rows.")
+
+    course_map = parse_course_map(rows)
+    print(f"[{term}] Courses: {len(course_map)} — {', '.join(sorted(course_map))}")
+
+    year = year_override or extract_year_from_metadata(rows)
+    print(f"[{term}] Year: {year}")
+
+    events = parse_calendar_grid(rows, course_map, year=year, location=location)
+    special = sum(1 for e in events if e.is_special)
+    print(f"[{term}] Events: {len(events)} ({len(events) - special} regular, {special} special)\n")
+
+    return events
 
 
 # ---------------------------------------------------------------------------
@@ -37,26 +131,34 @@ def _build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="sync_timetable",
         description=(
-            "Fetch a timetable from Google Sheets and convert it to a "
-            "shareable .ics calendar file."
+            "Fetch timetable(s) from Google Drive and convert to a .ics calendar file.\n"
+            "Sources are read from timetable_sources.json by default."
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=(
             "Examples:\n"
-            "  uv run python sync_timetable.py --sheet-url 'https://docs.google.com/spreadsheets/d/SHEET_ID/edit'\n"
-            "  uv run python sync_timetable.py --sheet-url 'https://...' --dry-run --verbose\n"
-            "  uv run python sync_timetable.py --sheet-url 'https://...' --output my_timetable.ics\n"
+            "  uv run python sync_timetable.py\n"
+            "  uv run python sync_timetable.py --sources custom_sources.json\n"
+            "  uv run python sync_timetable.py --sheet-url 'https://docs.google.com/...'\n"
+            "  uv run python sync_timetable.py --dry-run --verbose\n"
             "\n"
-            "You can also set SHEET_URL in a .env file to avoid passing --sheet-url every time."
+            "Source resolution order:\n"
+            "  1. --sources FILE (default: timetable_sources.json)\n"
+            "  2. --sheet-url URL / SHEET_URL env var (single-source fallback)\n"
         ),
     )
 
     parser.add_argument(
+        "--sources",
+        metavar="FILE",
+        default="timetable_sources.json",
+        help="JSON file listing timetable sources (default: timetable_sources.json).",
+    )
+    parser.add_argument(
         "--sheet-url",
         metavar="URL",
         default=None,
-        help="Google Sheets URL (or plain spreadsheet ID). "
-             "Can also be set via the SHEET_URL environment variable.",
+        help="Single Google Drive URL — overrides timetable_sources.json.",
     )
     parser.add_argument(
         "--output",
@@ -68,20 +170,19 @@ def _build_parser() -> argparse.ArgumentParser:
         "--timezone",
         metavar="TZ",
         default=None,
-        help="IANA timezone for event datetimes "
-             "(default: Asia/Kolkata or DEFAULT_TIMEZONE env var).",
+        help="IANA timezone (default: Asia/Kolkata or DEFAULT_TIMEZONE env var).",
     )
     parser.add_argument(
         "--credentials",
         metavar="FILE",
         default="credentials.json",
-        help="Path to the OAuth2 credentials JSON file (default: credentials.json).",
+        help="Path to OAuth2 credentials JSON (default: credentials.json).",
     )
     parser.add_argument(
         "--token",
         metavar="FILE",
         default="token.json",
-        help="Path to the cached token file (default: token.json).",
+        help="Path to cached token file (default: token.json).",
     )
     parser.add_argument(
         "--location",
@@ -89,13 +190,12 @@ def _build_parser() -> argparse.ArgumentParser:
         default=None,
         help="Venue string added to every event (default: CR-7C-15 or LOCATION env var).",
     )
-
     parser.add_argument(
         "--year",
         metavar="YYYY",
         type=int,
         default=None,
-        help="Override the timetable year (default: auto-detected from sheet title).",
+        help="Override the timetable year (auto-detected per source by default).",
     )
     parser.add_argument(
         "--dry-run",
@@ -116,38 +216,36 @@ def _build_parser() -> argparse.ArgumentParser:
 # ---------------------------------------------------------------------------
 
 def main() -> None:
-    load_dotenv(override=False)  # .env fills gaps; CLI args take priority
+    load_dotenv(override=False)
 
     parser = _build_parser()
     args   = parser.parse_args()
 
-    # --- Logging ---
     log_level = logging.DEBUG if args.verbose else logging.WARNING
-    logging.basicConfig(
-        level=log_level,
-        format="%(levelname)s  %(name)s: %(message)s",
-    )
-    logger = logging.getLogger("sync_timetable")
+    logging.basicConfig(level=log_level, format="%(levelname)s  %(name)s: %(message)s")
 
-    # --- Resolve configuration (CLI > .env > defaults) ---
-    sheet_url  = args.sheet_url or os.environ.get("SHEET_URL", "").strip()
-    output     = args.output    or os.environ.get("DEFAULT_OUTPUT", "timetable.ics")
-    timezone   = args.timezone  or os.environ.get("DEFAULT_TIMEZONE", "Asia/Kolkata")
-    location   = args.location  or os.environ.get("LOCATION", "CR-7C-15")
+    output   = args.output   or os.environ.get("DEFAULT_OUTPUT",   "timetable.ics")
+    timezone = args.timezone or os.environ.get("DEFAULT_TIMEZONE", "Asia/Kolkata")
+    location = args.location or os.environ.get("LOCATION",         "CR-7C-15")
 
-    if not sheet_url:
+    # --- Resolve sources ---
+    if args.sheet_url:
+        # Single-URL override — wraps the URL as a one-item source list
+        sources = [{"term": "Timetable", "url": args.sheet_url}]
+    else:
+        fallback_url = os.environ.get("SHEET_URL", "").strip()
+        sources = load_sources(args.sources)
+        if not sources and fallback_url:
+            print(f"INFO: {args.sources} not found; falling back to SHEET_URL env var.")
+            sources = [{"term": "Timetable", "url": fallback_url}]
+
+    if not sources:
         parser.error(
-            "No Google Sheet URL provided.\n"
-            "Pass --sheet-url <URL>  or  set SHEET_URL in your .env file."
+            f"No timetable sources found.\n"
+            f"Either create {args.sources}, pass --sheet-url, or set SHEET_URL in .env."
         )
 
-    # --- Extract spreadsheet ID ---
-    try:
-        spreadsheet_id = extract_spreadsheet_id(sheet_url)
-    except ValueError as exc:
-        parser.error(str(exc))
-
-    print(f"Spreadsheet ID : {spreadsheet_id}")
+    print(f"Sources        : {len(sources)} term(s)")
     print(f"Output file    : {output}")
     print(f"Timezone       : {timezone}")
     print(f"Location       : {location}")
@@ -155,7 +253,7 @@ def main() -> None:
         print("[DRY RUN — no file will be written]")
     print()
 
-    # --- Authenticate ---
+    # --- Authenticate once for all sources ---
     print("Authenticating with Google…")
     try:
         creds = get_credentials(args.credentials, args.token)
@@ -163,48 +261,36 @@ def main() -> None:
         sys.exit(f"ERROR: {exc}")
     except Exception as exc:
         sys.exit(f"ERROR during authentication: {exc}")
-
     print("Authentication OK.\n")
 
-    # --- Fetch data (Drive API — file is stored as Excel .xlsx on Drive) ---
-    print(f"Downloading Excel file from Google Drive (file ID: {spreadsheet_id})…")
-    try:
-        rows = fetch_excel_from_drive(spreadsheet_id, creds)
-    except PermissionError as exc:
-        sys.exit(f"ERROR: {exc}")
-    except FileNotFoundError as exc:
-        sys.exit(f"ERROR: {exc}")
-    except Exception as exc:
-        sys.exit(f"ERROR downloading file: {exc}")
+    # --- Fetch and parse each source ---
+    all_events: list[TimetableEvent] = []
+    for source in sources:
+        events = fetch_term_events(
+            term=source["term"],
+            url=source["url"],
+            credentials=creds,
+            year_override=args.year,
+            location=location,
+        )
+        all_events.extend(events)
 
-    print(f"Fetched {len(rows)} rows.\n")
+    if not all_events:
+        sys.exit("ERROR: No events parsed from any source.")
 
-    # --- Parse course map ---
-    course_map = parse_course_map(rows)
-    print(f"Courses found  : {len(course_map)}")
-    for code, info in sorted(course_map.items()):
-        print(f"  {code:<8}  {info['name']}")
-    print()
+    all_events.sort(key=lambda e: (e.date, e.slot_index))
+    total   = len(all_events)
+    special = sum(1 for e in all_events if e.is_special)
+    print(f"Total events   : {total} ({total - special} regular, {special} special)\n")
 
-    # --- Detect year ---
-    year = args.year or extract_year_from_metadata(rows)
-    print(f"Timetable year : {year}\n")
-
-    # --- Parse events ---
-    events = parse_calendar_grid(rows, course_map, year=year, location=location)
-    total  = len(events)
-    special = sum(1 for e in events if e.is_special)
-    print(f"Events parsed  : {total} ({total - special} regular, {special} special)\n")
-
-    # --- Dry-run output ---
     if args.dry_run:
-        _print_dry_run_table(events)
+        _print_dry_run_table(all_events)
         return
 
     # --- Build and write .ics ---
     print("Generating .ics…")
     try:
-        ics_bytes = build_ics(events, timezone_str=timezone)
+        ics_bytes = build_ics(all_events, timezone_str=timezone)
     except ValueError as exc:
         sys.exit(f"ERROR: {exc}")
 
@@ -221,7 +307,7 @@ def main() -> None:
     print("  • Re-run this script anytime to refresh — the file is overwritten cleanly.")
 
 
-def _print_dry_run_table(events) -> None:
+def _print_dry_run_table(events: list[TimetableEvent]) -> None:
     print(f"{'DATE':<12} {'SLT':>3} {'START':>5} {'END':>5}  {'CODE':<8}  CELL TEXT")
     print("-" * 72)
     for e in events:
