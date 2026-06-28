@@ -4,7 +4,7 @@ PRODID:-//IIM Udaipur Timetable Sync//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALDESC:Auto-generated from Google Sheets timetable.
-X-WR-CALNAME:IIM Udaipur Term-I Timetable
+X-WR-CALNAME:IIM Udaipur Timetable
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
 SUMMARY:Registration 02:30 - 05:30 pm
@@ -3096,6 +3096,2073 @@ STATUS:TENTATIVE
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:MM Exams 10.00 AM (Marketing Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IoT-S1 (The Internet of Things (IoT))
+DTSTART;TZID=Asia/Kolkata:20260629T090000
+DTEND;TZID=Asia/Kolkata:20260629T103000
+UID:885a4a4f85f4a26de1d6c9777d0036de@iimutimetable
+CATEGORIES:IOT
+DESCRIPTION:Faculty: Prof. Samadrita Bhattacharyya\nSession: S1\nCode: IOT
+ \n\nRaw: IoT-S1
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IoT-S1 (The Internet of Things (IoT)) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S1 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260629T104500
+DTEND;TZID=Asia/Kolkata:20260629T121500
+UID:f4daf5c2981a203be97510e0dba03e36@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S1\nCode: AA(I)\n\nRaw: AA
+ (I) - S1
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S1 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S1 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260629T150000
+DTEND;TZID=Asia/Kolkata:20260629T163000
+UID:0ed894aaef1cd823742df71a3dfa0e09@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S1\nCode: DM\n\nRaw: DM-S
+ 1
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S1 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S2 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260629T164500
+DTEND;TZID=Asia/Kolkata:20260629T181500
+UID:30d168916df131dc2dffea5dff15498a@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S2\nCode: DM\n\nRaw: DM-S
+ 2
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S2 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IoT-S2 (The Internet of Things (IoT))
+DTSTART;TZID=Asia/Kolkata:20260630T090000
+DTEND;TZID=Asia/Kolkata:20260630T103000
+UID:7dada71623383385cdcb26d686decc59@iimutimetable
+CATEGORIES:IOT
+DESCRIPTION:Faculty: Prof. Samadrita Bhattacharyya\nSession: S2\nCode: IOT
+ \n\nRaw: IoT-S2
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IoT-S2 (The Internet of Things (IoT)) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S2 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260630T104500
+DTEND;TZID=Asia/Kolkata:20260630T121500
+UID:0e8e117fe306c470c1a76fb9061a6066@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S2\nCode: AA(I)\n\nRaw: AA
+ (I) - S2
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S2 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S3 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260630T150000
+DTEND;TZID=Asia/Kolkata:20260630T163000
+UID:bebc4c1192d32c961d0d9734f7603a38@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S3\nCode: DM\n\nRaw: DM-S
+ 3
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S3 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S4 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260630T164500
+DTEND;TZID=Asia/Kolkata:20260630T181500
+UID:9d39747edd811396ccbde09ec104a6e5@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S4\nCode: DM\n\nRaw: DM-S
+ 4
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S4 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IoT-S3 (The Internet of Things (IoT))
+DTSTART;TZID=Asia/Kolkata:20260701T090000
+DTEND;TZID=Asia/Kolkata:20260701T103000
+UID:aab3ddfa0fa0c72f126c6e5b7a83eaea@iimutimetable
+CATEGORIES:IOT
+DESCRIPTION:Faculty: Prof. Samadrita Bhattacharyya\nSession: S3\nCode: IOT
+ \n\nRaw: IoT-S3
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IoT-S3 (The Internet of Things (IoT)) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S5 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260701T104500
+DTEND;TZID=Asia/Kolkata:20260701T121500
+UID:d094e0ef39964c46566dc7357f5d1903@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S5\nCode: DM\n\nRaw: DM-S
+ 5
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S5 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S3 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260701T123000
+DTEND;TZID=Asia/Kolkata:20260701T140000
+UID:a52c3a5d6703f42524daf0d15936c3f2@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S3\nCode: AA(I)\n\nRaw: AA
+ (I) - S3
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S3 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S1 (PM) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260702T104500
+DTEND;TZID=Asia/Kolkata:20260702T121500
+UID:2cd3a86b53e8fd76be5d53cb33636fe4@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S1\nCode: AIFW\n\nRaw: AIFW - S1 (PM)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S1 (PM) (Artificial Intelligence and Future of Work) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ET Workshop : Agentic AI- Foundations and Business Acceleration\, 
+ 03.00 - 06.00 pm (Emerging Technologies for Business - Workshop)
+DTSTART;TZID=Asia/Kolkata:20260704T150000
+DTEND;TZID=Asia/Kolkata:20260704T180000
+UID:e3fe7e54cfae7c0c075f27b017c9470e@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop 
+ : Agentic AI- Foundations and Business Acceleration\, 03.00 - 06.00 pm
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ET Workshop : Agentic AI- Foundations and Business Acceleratio
+ n\, 03.00 - 06.00 pm (Emerging Technologies for Business - Workshop) start
+ ing in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ET Workshop : Agentic AI- Governance\, Monitoring\, Evaluation\, a
+ nd Case Studies\, 08.30 - 11.30 am (Emerging Technologies for Business - W
+ orkshop)
+DTSTART;TZID=Asia/Kolkata:20260705T083000
+DTEND;TZID=Asia/Kolkata:20260705T113000
+UID:56080fcc6fd7d246264fba3a87ef5e2c@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop 
+ : Agentic AI- Governance\, Monitoring\, Evaluation\, and Case Studies\, 08
+ .30 - 11.30 am
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ET Workshop : Agentic AI- Governance\, Monitoring\, Evaluation
+ \, and Case Studies\, 08.30 - 11.30 am (Emerging Technologies for Business
+  - Workshop) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IoT-S4 (The Internet of Things (IoT))
+DTSTART;TZID=Asia/Kolkata:20260706T090000
+DTEND;TZID=Asia/Kolkata:20260706T103000
+UID:224d91f31c3e693b36b0087fb43b5292@iimutimetable
+CATEGORIES:IOT
+DESCRIPTION:Faculty: Prof. Samadrita Bhattacharyya\nSession: S4\nCode: IOT
+ \n\nRaw: IoT-S4
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IoT-S4 (The Internet of Things (IoT)) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S4 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260706T104500
+DTEND;TZID=Asia/Kolkata:20260706T121500
+UID:3dcdfae51b938790f21f8f63be8cc9b6@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S4\nCode: AA(I)\n\nRaw: AA
+ (I) - S4
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S4 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S6 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260706T150000
+DTEND;TZID=Asia/Kolkata:20260706T163000
+UID:10a9925c3de5d44dbadbfca7951040bd@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S6\nCode: DM\n\nRaw: DM-S
+ 6
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S6 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S7 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260706T164500
+DTEND;TZID=Asia/Kolkata:20260706T181500
+UID:eda51dfb5002db40acb941365e99e3db@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S7\nCode: DM\n\nRaw: DM-S
+ 7
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S7 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IoT-S5 (The Internet of Things (IoT))
+DTSTART;TZID=Asia/Kolkata:20260707T090000
+DTEND;TZID=Asia/Kolkata:20260707T103000
+UID:96e3d340d025011b886c3bb757fc0bc3@iimutimetable
+CATEGORIES:IOT
+DESCRIPTION:Faculty: Prof. Samadrita Bhattacharyya\nSession: S5\nCode: IOT
+ \n\nRaw: IoT-S5
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IoT-S5 (The Internet of Things (IoT)) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S2 (PM) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260707T104500
+DTEND;TZID=Asia/Kolkata:20260707T121500
+UID:e49e7f9a61ca7e65938acc3a742b5f30@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S2\nCode: AIFW\n\nRaw: AIFW - S2 (PM)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S2 (PM) (Artificial Intelligence and Future of Work) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S8 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260707T150000
+DTEND;TZID=Asia/Kolkata:20260707T163000
+UID:2f33836a52f5102d783ce8e2b8fcc16a@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S8\nCode: DM\n\nRaw: DM-S
+ 8
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S8 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S9 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260707T164500
+DTEND;TZID=Asia/Kolkata:20260707T181500
+UID:510b98bfeee49f9fa89420697a1d9192@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S9\nCode: DM\n\nRaw: DM-S
+ 9
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S9 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IoT-S6 (The Internet of Things (IoT))
+DTSTART;TZID=Asia/Kolkata:20260708T090000
+DTEND;TZID=Asia/Kolkata:20260708T103000
+UID:c72043a24b9269fd4f87987d029ccb20@iimutimetable
+CATEGORIES:IOT
+DESCRIPTION:Faculty: Prof. Samadrita Bhattacharyya\nSession: S6\nCode: IOT
+ \n\nRaw: IoT-S6
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IoT-S6 (The Internet of Things (IoT)) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S10 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260708T104500
+DTEND;TZID=Asia/Kolkata:20260708T121500
+UID:e89372d79ee6d8471c5a2ada2f01c9e0@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S10\nCode: DM\n\nRaw: DM-
+ S10
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S10 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S5 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260708T123000
+DTEND;TZID=Asia/Kolkata:20260708T140000
+UID:2342902e9db612b51bc12dd4d21d4f2f@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S5\nCode: AA(I)\n\nRaw: AA
+ (I) - S5
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S5 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S3 (PM) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260709T104500
+DTEND;TZID=Asia/Kolkata:20260709T121500
+UID:503c36ab02088bfe033feed2b13f4cb7@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S3\nCode: AIFW\n\nRaw: AIFW - S3 (PM)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S3 (PM) (Artificial Intelligence and Future of Work) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S6 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260710T104500
+DTEND;TZID=Asia/Kolkata:20260710T121500
+UID:9277168cb7068ad8fd1a597392542366@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S6\nCode: AA(I)\n\nRaw: AA
+ (I) - S6
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S6 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ET Workshop (Emerging Technologies for Business - Workshop)
+DTSTART;TZID=Asia/Kolkata:20260711T090000
+DTEND;TZID=Asia/Kolkata:20260711T103000
+UID:da38547d3a11b032ddf74b9b5d61f18e@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ET Workshop (Emerging Technologies for Business - Workshop) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IoT-S7 (The Internet of Things (IoT))
+DTSTART;TZID=Asia/Kolkata:20260713T090000
+DTEND;TZID=Asia/Kolkata:20260713T103000
+UID:659f20aa94fb62c0c548a1b25ac4f174@iimutimetable
+CATEGORIES:IOT
+DESCRIPTION:Faculty: Prof. Samadrita Bhattacharyya\nSession: S7\nCode: IOT
+ \n\nRaw: IoT-S7
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IoT-S7 (The Internet of Things (IoT)) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM - S1 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260713T104500
+DTEND;TZID=Asia/Kolkata:20260713T121500
+UID:da47b941f25d4c38105606c9b4638a10@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S1\nCode: DPM\n\nRaw: D
+ PM - S1
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM - S1 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S2 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260713T123000
+DTEND;TZID=Asia/Kolkata:20260713T140000
+UID:502e33162c5d8931190c77c1df5eecb1@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S2\nCode: DPM\n\nRaw: D
+ PM-S2
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S2 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S4 (PB) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260713T150000
+DTEND;TZID=Asia/Kolkata:20260713T163000
+UID:14d1693e7a727910bf96e90a9cd47b4c@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S4\nCode: AIFW\n\nRaw: AIFW - S4 (PB)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S4 (PB) (Artificial Intelligence and Future of Work) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S5 (PB) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260713T164500
+DTEND;TZID=Asia/Kolkata:20260713T181500
+UID:88190342dac577a3d8a3aa6a8ee8356f@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S5\nCode: AIFW\n\nRaw: AIFW - S5 (PB)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S5 (PB) (Artificial Intelligence and Future of Work) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IoT-S8 (The Internet of Things (IoT))
+DTSTART;TZID=Asia/Kolkata:20260714T090000
+DTEND;TZID=Asia/Kolkata:20260714T103000
+UID:115549083d58c2ed045f3968f13613a6@iimutimetable
+CATEGORIES:IOT
+DESCRIPTION:Faculty: Prof. Samadrita Bhattacharyya\nSession: S8\nCode: IOT
+ \n\nRaw: IoT-S8
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IoT-S8 (The Internet of Things (IoT)) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S6 (PB) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260714T104500
+DTEND;TZID=Asia/Kolkata:20260714T121500
+UID:9ab393816b9b753ebfe68f0097c31db6@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S6\nCode: AIFW\n\nRaw: AIFW - S6 (PB)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S6 (PB) (Artificial Intelligence and Future of Work) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S3 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260714T123000
+DTEND;TZID=Asia/Kolkata:20260714T140000
+UID:a552797b238b14e394331dbb986520a7@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S3\nCode: DPM\n\nRaw: D
+ PM-S3
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S3 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S4 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260714T150000
+DTEND;TZID=Asia/Kolkata:20260714T163000
+UID:74a8a68e35db3f7a6d91406ae2895917@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S4\nCode: DPM\n\nRaw: D
+ PM-S4
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S4 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S5 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260715T090000
+DTEND;TZID=Asia/Kolkata:20260715T103000
+UID:da7cc573cf652d342efa565e23330881@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S5\nCode: DPM\n\nRaw: D
+ PM-S5
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S5 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S7 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260715T104500
+DTEND;TZID=Asia/Kolkata:20260715T121500
+UID:d5519971593291b5205db5727492bfee@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S7\nCode: AA(I)\n\nRaw: AA
+ (I) - S7
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S7 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S8 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260716T090000
+DTEND;TZID=Asia/Kolkata:20260716T103000
+UID:abb44628fc0478aedc54c827710e45fc@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S8\nCode: AA(I)\n\nRaw: AA
+ (I) - S8
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S8 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S7 (PM) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260716T104500
+DTEND;TZID=Asia/Kolkata:20260716T121500
+UID:d02b761003551a0a3cd1a148ee4db868@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S7\nCode: AIFW\n\nRaw: AIFW - S7 (PM)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S7 (PM) (Artificial Intelligence and Future of Work) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DT Intro - S1 (Design Thinking)
+DTSTART;TZID=Asia/Kolkata:20260716T150000
+DTEND;TZID=Asia/Kolkata:20260716T163000
+UID:6af36f9dccb8181c0c37240d6b81c0fd@iimutimetable
+CATEGORIES:DT
+DESCRIPTION:Faculty: Prof. Lakshman Pachineela\, \nProf. Muktha Hiremath\n
+ Session: S1\nCode: DT\n\nRaw: DT Intro - S1
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DT Intro - S1 (Design Thinking) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DT Intro- S2 (Design Thinking)
+DTSTART;TZID=Asia/Kolkata:20260716T164500
+DTEND;TZID=Asia/Kolkata:20260716T181500
+UID:e9faa51462063c0a584da3d2221876e7@iimutimetable
+CATEGORIES:DT
+DESCRIPTION:Faculty: Prof. Lakshman Pachineela\, \nProf. Muktha Hiremath\n
+ Session: S2\nCode: DT\n\nRaw: DT Intro- S2
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DT Intro- S2 (Design Thinking) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S9 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260717T104500
+DTEND;TZID=Asia/Kolkata:20260717T121500
+UID:602925f349b514553a7817f222de5b2f@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S9\nCode: AA(I)\n\nRaw: AA
+ (I) - S9
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S9 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ET Workshop (Emerging Technologies for Business - Workshop)
+DTSTART;TZID=Asia/Kolkata:20260718T090000
+DTEND;TZID=Asia/Kolkata:20260718T103000
+UID:0a240a71ccf3a9bdd1931db80f92ed3c@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ET Workshop (Emerging Technologies for Business - Workshop) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IoT-S9 (The Internet of Things (IoT))
+DTSTART;TZID=Asia/Kolkata:20260720T090000
+DTEND;TZID=Asia/Kolkata:20260720T103000
+UID:98f94ee3f2f866d9a30fe45ee0ce84a2@iimutimetable
+CATEGORIES:IOT
+DESCRIPTION:Faculty: Prof. Samadrita Bhattacharyya\nSession: S9\nCode: IOT
+ \n\nRaw: IoT-S9
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IoT-S9 (The Internet of Things (IoT)) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S10 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260720T104500
+DTEND;TZID=Asia/Kolkata:20260720T121500
+UID:9964b7a9714bcf67c8e617a0d9c7af7a@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S10\nCode: AA(I)\n\nRaw: A
+ A(I) - S10
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S10 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IoT-S10 (The Internet of Things (IoT))
+DTSTART;TZID=Asia/Kolkata:20260721T090000
+DTEND;TZID=Asia/Kolkata:20260721T103000
+UID:41fe901ed86a6513ab6f066607d788aa@iimutimetable
+CATEGORIES:IOT
+DESCRIPTION:Faculty: Prof. Samadrita Bhattacharyya\nSession: S10\nCode: IO
+ T\n\nRaw: IoT-S10
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IoT-S10 (The Internet of Things (IoT)) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S8 (PM) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260721T104500
+DTEND;TZID=Asia/Kolkata:20260721T121500
+UID:491a868d98e41fb3babd85434f25f855@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S8\nCode: AIFW\n\nRaw: AIFW - S8 (PM)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S8 (PM) (Artificial Intelligence and Future of Work) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S11 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260721T123000
+DTEND;TZID=Asia/Kolkata:20260721T140000
+UID:7742b052f6cef9f2067cc99f45c327c1@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S11\nCode: AA(I)\n\nRaw: A
+ A(I) - S11
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S11 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S9 (PM) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260722T104500
+DTEND;TZID=Asia/Kolkata:20260722T121500
+UID:6c0460d463687c1fd810edc5db9792f2@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S9\nCode: AIFW\n\nRaw: AIFW - S9 (PM)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S9 (PM) (Artificial Intelligence and Future of Work) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S12 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260722T123000
+DTEND;TZID=Asia/Kolkata:20260722T140000
+UID:0ca49dc547b3e5d33ce3cb61509ce6ca@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S12\nCode: AA(I)\n\nRaw: A
+ A(I) - S12
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S12 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DT Workshop - DEM Group A (Design Thinking)
+DTSTART;TZID=Asia/Kolkata:20260723T090000
+DTEND;TZID=Asia/Kolkata:20260723T103000
+UID:8ac80d8ffef43d8effb0bd3efa2a1d64@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Lakshman Pachineela\, \nProf. Muktha Hiremath\n
+ Session: Workshop\nCode: DT\n\nRaw: DT Workshop - DEM Group A
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DT Workshop - DEM Group A (Design Thinking) starting in 5 minu
+ tes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DT Workshop - DEM Group A (Design Thinking)
+DTSTART;TZID=Asia/Kolkata:20260727T090000
+DTEND;TZID=Asia/Kolkata:20260727T103000
+UID:bfd12cf4197a341324a4b95e9d5055a4@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Lakshman Pachineela\, \nProf. Muktha Hiremath\n
+ Session: Workshop\nCode: DT\n\nRaw: DT Workshop - DEM Group A
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DT Workshop - DEM Group A (Design Thinking) starting in 5 minu
+ tes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S10 (PB) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260727T150000
+DTEND;TZID=Asia/Kolkata:20260727T163000
+UID:9866d5a586ec8459b7a4a555435154da@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S10\nCode: AIFW\n\nRaw: AIFW - S10 (PB)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S10 (PB) (Artificial Intelligence and Future of Work) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S11 (PB) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260727T164500
+DTEND;TZID=Asia/Kolkata:20260727T181500
+UID:5ffac4c35f7422bfc84b16c6df39c27b@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S11\nCode: AIFW\n\nRaw: AIFW - S11 (PB)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S11 (PB) (Artificial Intelligence and Future of Work) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S12 (PM) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260728T104500
+DTEND;TZID=Asia/Kolkata:20260728T121500
+UID:a11a582b533ef8b98a4aeee3927b13cb@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S12\nCode: AIFW\n\nRaw: AIFW - S12 (PM)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S12 (PM) (Artificial Intelligence and Future of Work) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S6 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260728T123000
+DTEND;TZID=Asia/Kolkata:20260728T140000
+UID:c98f984667c460d2ae8cbfde5e59aa56@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S6\nCode: DPM\n\nRaw: D
+ PM-S6
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S6 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S7 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260728T150000
+DTEND;TZID=Asia/Kolkata:20260728T163000
+UID:1ebf2a0f1158ba7c8a2e5cabc43f9107@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S7\nCode: DPM\n\nRaw: D
+ PM-S7
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S7 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW: Tutorial (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260728T164500
+DTEND;TZID=Asia/Kolkata:20260728T181500
+UID:f844f0d0d50f20ee938ce51cb0ea988c@iimutimetable
+CATEGORIES:AIFW: TUTORIAL
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nCode: AIFW: TUTORIAL\n\nRaw: AIFW: Tutorial
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW: Tutorial (Artificial Intelligence and Future of Work) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S8 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260729T123000
+DTEND;TZID=Asia/Kolkata:20260729T140000
+UID:8c0844505a61468503ee145b1d60cec7@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S8\nCode: DPM\n\nRaw: D
+ PM-S8
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S8 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S9 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260729T150000
+DTEND;TZID=Asia/Kolkata:20260729T163000
+UID:de8df870ecefc64020c0555905617b2a@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S9\nCode: DPM\n\nRaw: D
+ PM-S9
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S9 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S11 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260729T164500
+DTEND;TZID=Asia/Kolkata:20260729T181500
+UID:67ada6c02e5bdb7d151a844ee4c37614@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S11\nCode: DM\n\nRaw: DM-
+ S11
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S11 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S10 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260730T090000
+DTEND;TZID=Asia/Kolkata:20260730T103000
+UID:31c3dcf14dbe61ab0760478e563b536d@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S10\nCode: DPM\n\nRaw: 
+ DPM-S10
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S10 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S13 (PM) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260730T104500
+DTEND;TZID=Asia/Kolkata:20260730T121500
+UID:56664ff90e409fd4690af84d8531b51a@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S13\nCode: AIFW\n\nRaw: AIFW - S13 (PM)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S13 (PM) (Artificial Intelligence and Future of Work) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S12 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260730T150000
+DTEND;TZID=Asia/Kolkata:20260730T163000
+UID:95fd7a7fe8b6be00a8e99d3f1901a99b@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S12\nCode: DM\n\nRaw: DM-
+ S12
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S12 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S13 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260730T164500
+DTEND;TZID=Asia/Kolkata:20260730T181500
+UID:685926dbdc6d74dac5885a2a8c8262d8@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S13\nCode: DM\n\nRaw: DM-
+ S13
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S13 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S14 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260731T090000
+DTEND;TZID=Asia/Kolkata:20260731T103000
+UID:20537b2fd05579b7f204f5846f23437d@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S14\nCode: DM\n\nRaw: DM-
+ S14
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S14 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S15 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260731T104500
+DTEND;TZID=Asia/Kolkata:20260731T121500
+UID:4c0e7fe0a1d688fab8ea554fa71b2389@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S15\nCode: DM\n\nRaw: DM-
+ S15
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S15 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SM-S10 (Strategic Management)
+DTSTART;TZID=Asia/Kolkata:20260801T090000
+DTEND;TZID=Asia/Kolkata:20260801T103000
+UID:cc5889b04efb1413f98f22c7c777a784@iimutimetable
+CATEGORIES:SM
+DESCRIPTION:Faculty: Prof. Shaleen Gopal\nSession: S10\nCode: SM\n\nRaw: S
+ M-S10
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SM-S10 (Strategic Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S14 (PM) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260801T104500
+DTEND;TZID=Asia/Kolkata:20260801T121500
+UID:df3ab3cd43bbd00f286cd2f394067bb3@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S14\nCode: AIFW\n\nRaw: AIFW - S14 (PM)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S14 (PM) (Artificial Intelligence and Future of Work) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S19 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260801T104500
+DTEND;TZID=Asia/Kolkata:20260801T121500
+UID:ba7f3e1e3dc97d02bb616064fc89b648@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S19\nCode: AA(I)\n\nRaw: A
+ A(I) - S19
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S19 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S20 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260801T123000
+DTEND;TZID=Asia/Kolkata:20260801T140000
+UID:471fb78074c410985fcea2bc01f27ed3@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S20\nCode: AA(I)\n\nRaw: A
+ A(I) - S20
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S20 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IoT Exams 10.00 AM (The Internet of Things (IoT))
+DTSTART;TZID=Asia/Kolkata:20260803T090000
+DTEND;TZID=Asia/Kolkata:20260803T103000
+UID:907e55d0f2f438ca483f89834e8add35@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Samadrita Bhattacharyya\nSession: Exam\nCode: I
+ OT\n\nRaw: IoT Exams 10.00 AM
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IoT Exams 10.00 AM (The Internet of Things (IoT)) starting in 
+ 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA-I Exams 10.00 AM (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260804T090000
+DTEND;TZID=Asia/Kolkata:20260804T103000
+UID:5432db9f057eb55404c4d50c977259fb@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: Exam\nCode: AA\n\nRaw: AA-
+ I Exams 10.00 AM
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA-I Exams 10.00 AM (Advanced Analytics – I) starting in 5 m
+ inutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Quiz / Exam
+DTSTART;TZID=Asia/Kolkata:20260805T090000
+DTEND;TZID=Asia/Kolkata:20260805T103000
+UID:30b4b92ee5afb64a6ae33f58b92875d5@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Session: Exam\nCode: QUIZ\n\nRaw: Quiz / Exam
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quiz / Exam starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python Assessment Teat
+DTSTART;TZID=Asia/Kolkata:20260805T090000
+DTEND;TZID=Asia/Kolkata:20260805T103000
+UID:4baa6e351d86228fceb4125742ab2500@iimutimetable
+CATEGORIES:PYTHON
+DESCRIPTION:Code: PYTHON\n\nRaw: Python Assessment Teat
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Python Assessment Teat starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Quiz / Exam
+DTSTART;TZID=Asia/Kolkata:20260806T090000
+DTEND;TZID=Asia/Kolkata:20260806T103000
+UID:3040b9db6950ea961a334dfe124a9db5@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Session: Exam\nCode: QUIZ\n\nRaw: Quiz / Exam
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quiz / Exam starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Quiz / Exam
+DTSTART;TZID=Asia/Kolkata:20260807T090000
+DTEND;TZID=Asia/Kolkata:20260807T103000
+UID:125a834b614d5fc26ae94cdb67d5ab62@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Session: Exam\nCode: QUIZ\n\nRaw: Quiz / Exam
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quiz / Exam starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW Exam 10.00 AM (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260807T090000
+DTEND;TZID=Asia/Kolkata:20260807T103000
+UID:d35ccdd2d72b2484450a361e6175a72a@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: Exam\nCode: AIFW\n\nRaw: AIFW Exam 10.00 AM
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW Exam 10.00 AM (Artificial Intelligence and Future of Work
+ ) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SM Exam 10.00 AM (Strategic Management)
+DTSTART;TZID=Asia/Kolkata:20260808T090000
+DTEND;TZID=Asia/Kolkata:20260808T103000
+UID:26a655cf9854588c7bc2995fde508731@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Shaleen Gopal\nSession: Exam\nCode: SM\n\nRaw: 
+ SM Exam 10.00 AM
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SM Exam 10.00 AM (Strategic Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM Exam 10.00 AM (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260809T090000
+DTEND;TZID=Asia/Kolkata:20260809T103000
+UID:22d8a3017cef6490fe3fd11cfefa2a40@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: Exam\nCode: DM\n\nRaw: DM
+  Exam 10.00 AM
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM Exam 10.00 AM (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SM-S1 (Strategic Management)
+DTSTART;TZID=Asia/Kolkata:20260810T090000
+DTEND;TZID=Asia/Kolkata:20260810T103000
+UID:d5aa529f96cf6e186aa24ab8bb089c38@iimutimetable
+CATEGORIES:SM
+DESCRIPTION:Faculty: Prof. Shaleen Gopal\nSession: S1\nCode: SM\n\nRaw: SM
+ -S1
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SM-S1 (Strategic Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM Exam 10.00 AM (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260810T090000
+DTEND;TZID=Asia/Kolkata:20260810T103000
+UID:3d75bd06d3d86b5d18a95401c5773a47@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: Exam\nCode: DPM\n\nRaw:
+  DPM Exam 10.00 AM
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM Exam 10.00 AM (Digital Product Management) starting in 5 m
+ inutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S11 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260810T104500
+DTEND;TZID=Asia/Kolkata:20260810T121500
+UID:16b1802f9abc154c77c61eda1d6c1a75@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S11\nCode: DPM\n\nRaw: 
+ DPM-S11
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S11 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S12 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260810T123000
+DTEND;TZID=Asia/Kolkata:20260810T140000
+UID:c5052926daa9cf83b3a76e8c5748336d@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S12\nCode: DPM\n\nRaw: 
+ DPM-S12
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S12 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S13 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260810T150000
+DTEND;TZID=Asia/Kolkata:20260810T163000
+UID:9e63bdf0aecf8cb4308e353ae7381a1a@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S13\nCode: AA(I)\n\nRaw: A
+ A(I) - S13
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S13 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SM-S2 (Strategic Management)
+DTSTART;TZID=Asia/Kolkata:20260811T090000
+DTEND;TZID=Asia/Kolkata:20260811T103000
+UID:de84ac797275011212fade5d644075cf@iimutimetable
+CATEGORIES:SM
+DESCRIPTION:Faculty: Prof. Shaleen Gopal\nSession: S2\nCode: SM\n\nRaw: SM
+ -S2
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SM-S2 (Strategic Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S13 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260811T104500
+DTEND;TZID=Asia/Kolkata:20260811T121500
+UID:85dc7866222f22fd9a4f6a2bcecd1bca@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S13\nCode: DPM\n\nRaw: 
+ DPM-S13
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S13 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S14 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260811T123000
+DTEND;TZID=Asia/Kolkata:20260811T140000
+UID:0a5597b86a82427445ab909c13f7d3c1@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S14\nCode: DPM\n\nRaw: 
+ DPM-S14
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S14 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S14 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260811T150000
+DTEND;TZID=Asia/Kolkata:20260811T163000
+UID:31b3eeaaffc0137ea4eb0adb2f15c24f@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S14\nCode: AA(I)\n\nRaw: A
+ A(I) - S14
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S14 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S15 (PB) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260812T090000
+DTEND;TZID=Asia/Kolkata:20260812T103000
+UID:7cd897484d8a2679a9c9017f4c6f164a@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S15\nCode: AIFW\n\nRaw: AIFW - S15 (PB)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S15 (PB) (Artificial Intelligence and Future of Work) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S16 (PB) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260812T104500
+DTEND;TZID=Asia/Kolkata:20260812T121500
+UID:1a2e63d18a38a55215ca4bfb8b830212@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S16\nCode: AIFW\n\nRaw: AIFW - S16 (PB)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S16 (PB) (Artificial Intelligence and Future of Work) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S15 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260812T123000
+DTEND;TZID=Asia/Kolkata:20260812T140000
+UID:e0ef8606d35e5c47cfe1f15bee321c14@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S15\nCode: DPM\n\nRaw: 
+ DPM-S15
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S15 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S15 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260812T150000
+DTEND;TZID=Asia/Kolkata:20260812T163000
+UID:cdf0c27cff4cca0e05695b6b08739676@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S15\nCode: AA(I)\n\nRaw: A
+ A(I) - S15
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S15 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S16 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260812T164500
+DTEND;TZID=Asia/Kolkata:20260812T181500
+UID:575b1c96c1fc61188326f1bf14861881@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S16\nCode: DM\n\nRaw: DM-
+ S16
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S16 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S17 (PB) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260813T104500
+DTEND;TZID=Asia/Kolkata:20260813T121500
+UID:6b4ea91a4e7f8f0d3a382c81696c2ae5@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S17\nCode: AIFW\n\nRaw: AIFW - S17 (PB)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S17 (PB) (Artificial Intelligence and Future of Work) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S17 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260813T123000
+DTEND;TZID=Asia/Kolkata:20260813T140000
+UID:660ce82f75bee5a51f9164676ad79e0f@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S17\nCode: DM\n\nRaw: DM-
+ S17
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S17 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S18 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260813T150000
+DTEND;TZID=Asia/Kolkata:20260813T163000
+UID:28b41767df7bb0ac238b9c77588b8dcb@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S18\nCode: DM\n\nRaw: DM-
+ S18
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S18 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW: Tutorial (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260813T164500
+DTEND;TZID=Asia/Kolkata:20260813T181500
+UID:e640f03e71430e19629a48a5265c5a6b@iimutimetable
+CATEGORIES:AIFW: TUTORIAL
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nCode: AIFW: TUTORIAL\n\nRaw: AIFW: Tutorial
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW: Tutorial (Artificial Intelligence and Future of Work) st
+ arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S19 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260814T090000
+DTEND;TZID=Asia/Kolkata:20260814T103000
+UID:6149d709568b194fe26a1796f199e754@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S19\nCode: DM\n\nRaw: DM-
+ S19
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S19 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DM-S20 (Digital Marketing)
+DTSTART;TZID=Asia/Kolkata:20260814T104500
+DTEND;TZID=Asia/Kolkata:20260814T121500
+UID:751b69afc34de035c8a57f25dc64b348@iimutimetable
+CATEGORIES:DM
+DESCRIPTION:Faculty: Prof. Atanu Ghosh\nSession: S20\nCode: DM\n\nRaw: DM-
+ S20
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DM-S20 (Digital Marketing) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S18 (PB) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260814T123000
+DTEND;TZID=Asia/Kolkata:20260814T140000
+UID:d9ed20ff81624816d7f1ca3a67299661@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S18\nCode: AIFW\n\nRaw: AIFW - S18 (PB)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S18 (PB) (Artificial Intelligence and Future of Work) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW: Project Discussion (Artificial Intelligence and Future of Wo
+ rk)
+DTSTART;TZID=Asia/Kolkata:20260814T164500
+DTEND;TZID=Asia/Kolkata:20260814T181500
+UID:b877b57bb77ca9091c086f996787074a@iimutimetable
+CATEGORIES:AIFW: PROJECT DISCUSSION
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nCode: AIFW: PROJECT DISCUSSION\n\nRaw: AIFW: Project Discussion
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW: Project Discussion (Artificial Intelligence and Future o
+ f Work) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Indepedence Day
+DTSTART;TZID=Asia/Kolkata:20260815T090000
+DTEND;TZID=Asia/Kolkata:20260815T103000
+UID:cfb6132bc2580b40bccc195e5f5420fe@iimutimetable
+CATEGORIES:INDEPEDENCE
+DESCRIPTION:Code: INDEPEDENCE\n\nRaw: Indepedence Day
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Indepedence Day starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SM-S3 (Strategic Management)
+DTSTART;TZID=Asia/Kolkata:20260817T090000
+DTEND;TZID=Asia/Kolkata:20260817T103000
+UID:9e908560fb0bab1fd16078aefa99361f@iimutimetable
+CATEGORIES:SM
+DESCRIPTION:Faculty: Prof. Shaleen Gopal\nSession: S3\nCode: SM\n\nRaw: SM
+ -S3
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SM-S3 (Strategic Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S19 (PB) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260817T104500
+DTEND;TZID=Asia/Kolkata:20260817T121500
+UID:d3804d85a727f3130a993215d9ad816c@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S19\nCode: AIFW\n\nRaw: AIFW - S19 (PB)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S19 (PB) (Artificial Intelligence and Future of Work) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S16 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260817T123000
+DTEND;TZID=Asia/Kolkata:20260817T140000
+UID:ed38d605298a2d386e387f6448f02727@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S16\nCode: DPM\n\nRaw: 
+ DPM-S16
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S16 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S17 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260817T150000
+DTEND;TZID=Asia/Kolkata:20260817T163000
+UID:5c79d72d1f549b6a992ab176f04969aa@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S17\nCode: DPM\n\nRaw: 
+ DPM-S17
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S17 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW: Project Discussion (Artificial Intelligence and Future of Wo
+ rk)
+DTSTART;TZID=Asia/Kolkata:20260817T164500
+DTEND;TZID=Asia/Kolkata:20260817T181500
+UID:78e916174a37a222d2ff929e95fe55ff@iimutimetable
+CATEGORIES:AIFW: PROJECT DISCUSSION
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nCode: AIFW: PROJECT DISCUSSION\n\nRaw: AIFW: Project Discussion
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW: Project Discussion (Artificial Intelligence and Future o
+ f Work) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SM-S4 (Strategic Management)
+DTSTART;TZID=Asia/Kolkata:20260818T090000
+DTEND;TZID=Asia/Kolkata:20260818T103000
+UID:a97f9fc223d7acb7a635848aa3b1b03d@iimutimetable
+CATEGORIES:SM
+DESCRIPTION:Faculty: Prof. Shaleen Gopal\nSession: S4\nCode: SM\n\nRaw: SM
+ -S4
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SM-S4 (Strategic Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW - S20 (PM) (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260818T104500
+DTEND;TZID=Asia/Kolkata:20260818T121500
+UID:1f3250864fd642b6a7abcbc6b438857f@iimutimetable
+CATEGORIES:AIFW
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: S20\nCode: AIFW\n\nRaw: AIFW - S20 (PM)
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW - S20 (PM) (Artificial Intelligence and Future of Work) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S18 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260818T123000
+DTEND;TZID=Asia/Kolkata:20260818T140000
+UID:cbae88ec46115314f0183d825ce5f847@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S18\nCode: DPM\n\nRaw: 
+ DPM-S18
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S18 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S19 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260818T150000
+DTEND;TZID=Asia/Kolkata:20260818T163000
+UID:d51424d37c771a20bfa800652e51954b@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S19\nCode: DPM\n\nRaw: 
+ DPM-S19
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S19 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SM-S5 (Strategic Management)
+DTSTART;TZID=Asia/Kolkata:20260819T090000
+DTEND;TZID=Asia/Kolkata:20260819T103000
+UID:9ab2b2435bc1c12c736b8e2d0a2e8f91@iimutimetable
+CATEGORIES:SM
+DESCRIPTION:Faculty: Prof. Shaleen Gopal\nSession: S5\nCode: SM\n\nRaw: SM
+ -S5
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SM-S5 (Strategic Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S20 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260819T104500
+DTEND;TZID=Asia/Kolkata:20260819T121500
+UID:81e47e537831d1b82ad36aca01a24859@iimutimetable
+CATEGORIES:DPM
+DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S20\nCode: DPM\n\nRaw: 
+ DPM-S20
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DPM-S20 (Digital Product Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DT Workshop - DEM Group B (Design Thinking)
+DTSTART;TZID=Asia/Kolkata:20260820T090000
+DTEND;TZID=Asia/Kolkata:20260820T103000
+UID:dca465f92a4c1e61510aa7c4fc45d949@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Lakshman Pachineela\, \nProf. Muktha Hiremath\n
+ Session: Workshop\nCode: DT\n\nRaw: DT Workshop - DEM Group B
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DT Workshop - DEM Group B (Design Thinking) starting in 5 minu
+ tes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DT Workshop - DEM Group B (Design Thinking)
+DTSTART;TZID=Asia/Kolkata:20260824T090000
+DTEND;TZID=Asia/Kolkata:20260824T103000
+UID:a09dee7da375f07ab084c3b1a525b5e5@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Lakshman Pachineela\, \nProf. Muktha Hiremath\n
+ Session: Workshop\nCode: DT\n\nRaw: DT Workshop - DEM Group B
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DT Workshop - DEM Group B (Design Thinking) starting in 5 minu
+ tes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S16 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260824T123000
+DTEND;TZID=Asia/Kolkata:20260824T140000
+UID:9792759f442e29611f084f863b511b3a@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S16\nCode: AA(I)\n\nRaw: A
+ A(I) - S16
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S16 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SM-S6 (Strategic Management)
+DTSTART;TZID=Asia/Kolkata:20260825T090000
+DTEND;TZID=Asia/Kolkata:20260825T103000
+UID:a050d237b3f06406d51f8cf583ba9fd1@iimutimetable
+CATEGORIES:SM
+DESCRIPTION:Faculty: Prof. Shaleen Gopal\nSession: S6\nCode: SM\n\nRaw: SM
+ -S6
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SM-S6 (Strategic Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S17 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260825T104500
+DTEND;TZID=Asia/Kolkata:20260825T121500
+UID:0090eb2877e87c9cd3af197128a53ea1@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S17\nCode: AA(I)\n\nRaw: A
+ A(I) - S17
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S17 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SM-S7 (Strategic Management)
+DTSTART;TZID=Asia/Kolkata:20260826T090000
+DTEND;TZID=Asia/Kolkata:20260826T103000
+UID:6d12c092a58adba2e5e64f9bfc679588@iimutimetable
+CATEGORIES:SM
+DESCRIPTION:Faculty: Prof. Shaleen Gopal\nSession: S7\nCode: SM\n\nRaw: SM
+ -S7
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SM-S7 (Strategic Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AA(I) - S18 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260826T104500
+DTEND;TZID=Asia/Kolkata:20260826T121500
+UID:2aa77acd0d6fb52e1ebd696b5239d571@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S18\nCode: AA(I)\n\nRaw: A
+ A(I) - S18
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) - S18 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SM-S8 (Strategic Management)
+DTSTART;TZID=Asia/Kolkata:20260827T090000
+DTEND;TZID=Asia/Kolkata:20260827T103000
+UID:cd76ed16821259fdf774405e762b21d2@iimutimetable
+CATEGORIES:SM
+DESCRIPTION:Faculty: Prof. Shaleen Gopal\nSession: S8\nCode: SM\n\nRaw: SM
+ -S8
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SM-S8 (Strategic Management) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python Workshop
+DTSTART;TZID=Asia/Kolkata:20260828T090000
+DTEND;TZID=Asia/Kolkata:20260828T103000
+UID:56f6f883a7bd6250cd677fc256a8f905@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Session: Workshop\nCode: PYTHON\n\nRaw: Python Workshop
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Python Workshop starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python Workshop
+DTSTART;TZID=Asia/Kolkata:20260829T090000
+DTEND;TZID=Asia/Kolkata:20260829T103000
+UID:cde3ccbf49211f35f20c19088b60f82f@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Session: Workshop\nCode: PYTHON\n\nRaw: Python Workshop
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Python Workshop starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SM-S9 (Strategic Management)
+DTSTART;TZID=Asia/Kolkata:20260831T090000
+DTEND;TZID=Asia/Kolkata:20260831T103000
+UID:ceeb14f53f8d3f2da4789cb0bda62e7c@iimutimetable
+CATEGORIES:SM
+DESCRIPTION:Faculty: Prof. Shaleen Gopal\nSession: S9\nCode: SM\n\nRaw: SM
+ -S9
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SM-S9 (Strategic Management) starting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
