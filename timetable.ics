@@ -3277,42 +3277,18 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ET Workshop : Agentic AI- Foundations and Business Acceleration\, 
- 03.00 - 06.00 pm (Emerging Technologies for Business - Workshop)
-DTSTART;TZID=Asia/Kolkata:20260704T150000
-DTEND;TZID=Asia/Kolkata:20260704T180000
-UID:e3fe7e54cfae7c0c075f27b017c9470e@iimutimetable
-CATEGORIES:Special
-DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop 
- : Agentic AI- Foundations and Business Acceleration\, 03.00 - 06.00 pm
+SUMMARY:AA(I) - S3 (Advanced Analytics – I)
+DTSTART;TZID=Asia/Kolkata:20260703T104500
+DTEND;TZID=Asia/Kolkata:20260703T121500
+UID:7cea8564bc50c49130e71e0b1e881738@iimutimetable
+CATEGORIES:AA(I)
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nSession: S3\nCode: AA(I)\n\nRaw: AA
+ (I) - S3
 LOCATION:CR-7C-15
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ET Workshop : Agentic AI- Foundations and Business Acceleratio
- n\, 03.00 - 06.00 pm (Emerging Technologies for Business - Workshop) start
- ing in 5 minutes
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ET Workshop : Agentic AI- Governance\, Monitoring\, Evaluation\, a
- nd Case Studies\, 08.30 - 11.30 am (Emerging Technologies for Business - W
- orkshop)
-DTSTART;TZID=Asia/Kolkata:20260705T083000
-DTEND;TZID=Asia/Kolkata:20260705T113000
-UID:56080fcc6fd7d246264fba3a87ef5e2c@iimutimetable
-CATEGORIES:Special
-DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop 
- : Agentic AI- Governance\, Monitoring\, Evaluation\, and Case Studies\, 08
- .30 - 11.30 am
-LOCATION:CR-7C-15
-STATUS:TENTATIVE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ET Workshop : Agentic AI- Governance\, Monitoring\, Evaluation
- \, and Case Studies\, 08.30 - 11.30 am (Emerging Technologies for Business
-  - Workshop) starting in 5 minutes
+DESCRIPTION:AA(I) - S3 (Advanced Analytics – I) starting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -3803,18 +3779,42 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ET Workshop (Emerging Technologies for Business - Workshop)
-DTSTART;TZID=Asia/Kolkata:20260718T090000
-DTEND;TZID=Asia/Kolkata:20260718T103000
-UID:0a240a71ccf3a9bdd1931db80f92ed3c@iimutimetable
+SUMMARY:ET Workshop : Agentic AI- Foundations and Business Acceleration\, 
+ 03.00 - 06.00 pm (Emerging Technologies for Business - Workshop)
+DTSTART;TZID=Asia/Kolkata:20260718T150000
+DTEND;TZID=Asia/Kolkata:20260718T180000
+UID:e49eeb52ad9b2b45b963ea627a2393fe@iimutimetable
 CATEGORIES:Special
-DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop
+DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop 
+ : Agentic AI- Foundations and Business Acceleration\, 03.00 - 06.00 pm
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ET Workshop (Emerging Technologies for Business - Workshop) st
- arting in 5 minutes
+DESCRIPTION:ET Workshop : Agentic AI- Foundations and Business Acceleratio
+ n\, 03.00 - 06.00 pm (Emerging Technologies for Business - Workshop) start
+ ing in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ET Workshop : Agentic AI- Governance\, Monitoring\, Evaluation\, a
+ nd Case Studies\, 08.30 - 11.30 am (Emerging Technologies for Business - W
+ orkshop)
+DTSTART;TZID=Asia/Kolkata:20260719T083000
+DTEND;TZID=Asia/Kolkata:20260719T113000
+UID:b7337c6ff814d9fa115ba6fb42490586@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: --\nSession: Workshop\nCode: ETB\n\nRaw: ET Workshop 
+ : Agentic AI- Governance\, Monitoring\, Evaluation\, and Case Studies\, 08
+ .30 - 11.30 am
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ET Workshop : Agentic AI- Governance\, Monitoring\, Evaluation
+ \, and Case Studies\, 08.30 - 11.30 am (Emerging Technologies for Business
+  - Workshop) starting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
