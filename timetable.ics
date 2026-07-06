@@ -3650,10 +3650,25 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DPM-S4 (Digital Product Management)
+SUMMARY:AA(I) Quiz (Advanced Analytics – I)
 DTSTART;TZID=Asia/Kolkata:20260714T150000
 DTEND;TZID=Asia/Kolkata:20260714T163000
-UID:74a8a68e35db3f7a6d91406ae2895917@iimutimetable
+UID:f41e26f570a2a1258d548ad49f4ccdfa@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Ujjwal Das\nCode: AA\n\nRaw: AA(I) Quiz
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AA(I) Quiz (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DPM-S4 (Digital Product Management)
+DTSTART;TZID=Asia/Kolkata:20260714T164500
+DTEND;TZID=Asia/Kolkata:20260714T181500
+UID:c38113f94d609bf9bacc4b210c0eaff1@iimutimetable
 CATEGORIES:DPM
 DESCRIPTION:Faculty: Prof. Malthi Satish\nSession: S4\nCode: DPM\n\nRaw: D
  PM-S4
@@ -3775,6 +3790,23 @@ STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:AA(I) - S9 (Advanced Analytics – I) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW Quiz-1 (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260717T150000
+DTEND;TZID=Asia/Kolkata:20260717T163000
+UID:62a7e2664554c6aaff943c56aa86cb53@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: 1\nCode: AIFW\n\nRaw: AIFW Quiz-1
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW Quiz-1 (Artificial Intelligence and Future of Work) start
+ ing in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -4063,6 +4095,23 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:AIFW: Tutorial (Artificial Intelligence and Future of Work) st
  arting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIFW Quiz-2 (Artificial Intelligence and Future of Work)
+DTSTART;TZID=Asia/Kolkata:20260729T090000
+DTEND;TZID=Asia/Kolkata:20260729T103000
+UID:d77ab5c345a56a1451b9e008329a234d@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Probal Mojumder(PM) & \nProf. Prantosh Banerjee
+ (PB)\nSession: 2\nCode: AIFW\n\nRaw: AIFW Quiz-2
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AIFW Quiz-2 (Artificial Intelligence and Future of Work) start
+ ing in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
