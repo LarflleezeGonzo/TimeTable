@@ -309,6 +309,19 @@ def parse_calendar_grid(
             logger.warning("Row %d: skipping — %s", row_idx + 1, exc)
             continue
 
+        # Cross-check against col C: a mismatch means the month carry-forward
+        # has drifted (e.g. an unrecognized month label in col A), which would
+        # silently stack a later month's sessions onto the wrong dates.
+        expected_day = row[_COL_DAY]
+        if expected_day and not _weekday_matches(event_date, str(expected_day)):
+            logger.warning(
+                "Row %d: day mismatch — sheet says '%s' but %s (%s/%d) is a %s. "
+                "Skipping row; check the month label in column A.",
+                row_idx + 1, str(expected_day).strip(), event_date.isoformat(),
+                current_month, day_num, event_date.strftime("%a"),
+            )
+            continue
+
         # Iterate session slots
         for slot_index, col_idx in _SLOT_COLS.items():
             cell = row[col_idx]
@@ -360,6 +373,19 @@ def parse_calendar_grid(
 
     logger.info("Parsed %d events from %d sheet rows.", len(events), len(rows) - _DATA_START_ROW_IDX)
     return events
+
+
+def _weekday_matches(event_date: date, day_cell: str) -> bool:
+    """
+    True if the reconstructed date's weekday agrees with the sheet's day column.
+
+    Accepts any prefix form ('Mon', 'Monday', 'Tues'). Unrecognized values return
+    True so stray text in col C never drops a valid row.
+    """
+    cell = day_cell.strip().lower()[:3]
+    if cell not in {'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'}:
+        return True
+    return cell == event_date.strftime("%a").lower()
 
 
 def _fuzzy_lookup(code: str, course_map: dict[str, dict]) -> dict | None:
