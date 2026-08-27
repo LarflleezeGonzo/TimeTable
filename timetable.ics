@@ -5244,32 +5244,34 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Python Workshop
-DTSTART;TZID=Asia/Kolkata:20260828T090000
-DTEND;TZID=Asia/Kolkata:20260828T103000
-UID:56f6f883a7bd6250cd677fc256a8f905@iimutimetable
+SUMMARY:Python Workshop 10.00am - 01.00pm
+DTSTART;TZID=Asia/Kolkata:20260828T100000
+DTEND;TZID=Asia/Kolkata:20260828T130000
+UID:672c392ba7224a3b59529d7f5ac7f1fd@iimutimetable
 CATEGORIES:Special
-DESCRIPTION:Session: Workshop\nCode: PYTHON\n\nRaw: Python Workshop
+DESCRIPTION:Session: Workshop\nCode: PYTHON\n\nRaw: Python Workshop 10.00a
+ m - 01.00pm
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Python Workshop starting in 5 minutes
+DESCRIPTION:Python Workshop 10.00am - 01.00pm starting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Python Workshop
-DTSTART;TZID=Asia/Kolkata:20260829T090000
-DTEND;TZID=Asia/Kolkata:20260829T103000
-UID:cde3ccbf49211f35f20c19088b60f82f@iimutimetable
+SUMMARY:Python Workshop 10.00am - 01.00pm
+DTSTART;TZID=Asia/Kolkata:20260829T100000
+DTEND;TZID=Asia/Kolkata:20260829T130000
+UID:f839ee2fc21a03a60111bcaa16104bc5@iimutimetable
 CATEGORIES:Special
-DESCRIPTION:Session: Workshop\nCode: PYTHON\n\nRaw: Python Workshop
+DESCRIPTION:Session: Workshop\nCode: PYTHON\n\nRaw: Python Workshop 10.00a
+ m - 01.00pm
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Python Workshop starting in 5 minutes
+DESCRIPTION:Python Workshop 10.00am - 01.00pm starting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
