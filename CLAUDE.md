@@ -5,7 +5,7 @@
 Fetches a timetable from a Google Drive Excel file (.xlsx) and converts it into a `.ics` calendar file. The `.ics` is published to GitHub Pages via a GitHub Actions workflow that runs three times daily.
 
 **Repository:** `LarflleezeGonzo/TimeTable` on GitHub  
-**Published calendar URL:** `https://larflleezeglonzo.github.io/TimeTable/timetable.ics` (served from the `gh-pages` branch)
+**Published calendar URL:** `https://larflleezegonzo.github.io/TimeTable/timetable.ics` (served from the `gh-pages` branch)
 
 ---
 
@@ -26,7 +26,7 @@ Fetches a timetable from a Google Drive Excel file (.xlsx) and converts it into 
 
 Edit `timetable_sources.json` and append an entry:
 ```json
-{ "term": "Term III", "url": "https://docs.google.com/spreadsheets/d/NEW_FILE_ID/edit" }
+{ "term": "Term IV", "url": "https://docs.google.com/spreadsheets/d/NEW_FILE_ID/edit" }
 ```
 Commit and push — the next CI run picks it up automatically. No secrets needed (URLs are not sensitive).
 

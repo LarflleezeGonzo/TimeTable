@@ -58,6 +58,7 @@ _SLOT_COLS = {1: _COL_S1, 2: _COL_S2, 3: _COL_S3, 4: _COL_S4, 5: _COL_S5, 6: _CO
 DEFAULT_SHEET_NAME  = "Term-I, Session Plan"
 DEFAULT_DATA_RANGE  = "'Term-I, Session Plan'!A1:O89"
 _DATA_START_ROW_IDX = 6  # 0-based index of the first real data row (sheet row 7)
+_COURSE_HEADER_SCAN_ROWS = 40  # course table header ('S.N.') lies within these rows
 
 
 # ---------------------------------------------------------------------------
@@ -198,8 +199,9 @@ def parse_course_map(rows: list[list]) -> dict[str, dict]:
     """
     Build a mapping from normalized course code → course info dict.
 
-    Reads rows 2–13 (0-indexed 1–12), columns K–O (indices 10–14).
-    Keys are upper-cased codes.  'MoC' is stored as 'MOC'.
+    Reads columns K–O (indices 10–14), starting after the 'S.N.' header row
+    (row 2 in Terms I/II, row 8 in Term III) until the first non-numeric S.N.
+    Keys are normalized codes: 'MoC' → 'MOC', 'AA-II' → 'AA(II)'.
 
     Returns:
         {
@@ -211,7 +213,13 @@ def parse_course_map(rows: list[list]) -> dict[str, dict]:
     """
     course_map: dict[str, dict] = {}
 
-    for row_idx in range(1, min(13, len(rows))):
+    header_idx = next(
+        (i for i, row in enumerate(rows[:_COURSE_HEADER_SCAN_ROWS])
+         if str(row[_COL_SN] or '').strip().upper().rstrip('.') == 'S.N'),
+        0,
+    )
+
+    for row_idx in range(header_idx + 1, len(rows)):
         row = rows[row_idx]
         sn_cell   = row[_COL_SN]
         name_cell = row[_COL_NAME]
@@ -219,22 +227,17 @@ def parse_course_map(rows: list[list]) -> dict[str, dict]:
         code_cell = row[_COL_CODE]
         cred_cell = row[_COL_CREDIT]
 
-        # Skip header row and totals row (S.N. must be numeric)
-        if sn_cell is None:
-            continue
+        # The table ends at the totals row (S.N. must be numeric)
         try:
             float(str(sn_cell))
         except (ValueError, TypeError):
-            continue
+            break
 
         if not code_cell:
             continue
 
         raw_code = str(code_cell).strip()
-        key = raw_code.upper()
-        # Normalize MoC → MOC
-        if key == 'MOC' or raw_code == 'MoC':
-            key = 'MOC'
+        key = normalize_course_code(raw_code).upper()
 
         credit = None
         if cred_cell is not None:

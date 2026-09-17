@@ -152,6 +152,7 @@ def normalize_course_code(cell_text: str) -> str:
       'MOC(B1) - S7 (...)'  → 'MOC'
       'OR(I)-3'            → 'OR(I)'
       'OR-I Exams 10.00 AM' → 'OR(I)'
+      'AA-II Exam 10.00 AM' → 'AA(II)'
       'AA(I) - S1'         → 'AA(I)'
       'IoT-S1'             → 'IOT'
       'OB Quiz - 1'        → 'OB'
@@ -164,16 +165,17 @@ def normalize_course_code(cell_text: str) -> str:
     if re.match(r'^MOC\b', text, re.IGNORECASE):
         return 'MOC'
 
-    # OR-I variants
-    if re.match(r'^OR-I\b', text, re.IGNORECASE):
-        return 'OR(I)'
+    # Roman-numeral suffix variants: OR-I → OR(I), AA-II → AA(II)
+    m = re.match(r'^([A-Za-z]+)-(I{1,3}|IV)\b', text)
+    if m:
+        return f'{m.group(1).upper()}({m.group(2)})'
 
     # ET Workshop → ETB
     if re.match(r'^ET\s+Workshop', text, re.IGNORECASE):
         return 'ETB'
 
     # CODE(suffix) - ... e.g. OR(I)-3, AA(I) - S1 — preserve parenthesized suffix
-    m = re.match(r'^([A-Za-z]+\([^)]+\))\s*-', text)
+    m = re.match(r'^([A-Za-z]+\([^)]+\))\s*(-|$)', text)
     if m:
         return m.group(1).upper()
 
