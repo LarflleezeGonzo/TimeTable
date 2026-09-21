@@ -5767,19 +5767,19 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:WMC Assignment (Written Managerial Communication)
+SUMMARY:WMC Assignment 10.45am-12.45pm (Written Managerial Communication)
 DTSTART;TZID=Asia/Kolkata:20260926T104500
-DTEND;TZID=Asia/Kolkata:20260926T121500
-UID:2a697f7d59ea3072a611ca1146cdb5a2@iimutimetable
+DTEND;TZID=Asia/Kolkata:20260926T124500
+UID:d89399ca6eb41e10c1d1e7cdfe0b5f82@iimutimetable
 CATEGORIES:WMC
-DESCRIPTION:Faculty: Prof. Manisha Mathews\nCode: WMC\n\nRaw: WMC Assignme
- nt
+DESCRIPTION:Faculty: Prof. Manisha Mathews\nSession: 12\nCode: WMC\n\nRaw:
+  WMC Assignment 10.45am-12.45pm
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:WMC Assignment (Written Managerial Communication) starting in 
- 5 minutes
+DESCRIPTION:WMC Assignment 10.45am-12.45pm (Written Managerial Communicati
+ on) starting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
