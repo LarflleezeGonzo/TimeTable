@@ -5832,23 +5832,6 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AiS - S3 (Artificial Intelligence and Sustainability)
-DTSTART;TZID=Asia/Kolkata:20260928T123000
-DTEND;TZID=Asia/Kolkata:20260928T140000
-UID:8533fbeeeb3020f4e142d841c92e874b@iimutimetable
-CATEGORIES:AIS
-DESCRIPTION:Faculty: Prof. Hemendra Talesara & Prof. Sandeep Khurana\nSess
- ion: S3\nCode: AIS\n\nRaw: AiS - S3
-LOCATION:CR-7C-15
-STATUS:CONFIRMED
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:AiS - S3 (Artificial Intelligence and Sustainability) starting
-  in 5 minutes
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Placement Process
 DTSTART;TZID=Asia/Kolkata:20260929T090000
 DTEND;TZID=Asia/Kolkata:20260929T103000
@@ -5893,6 +5876,23 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:DTM -  S5 (Digital Transformation Management) starting in 5 mi
  nutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AiS - S3 (Artificial Intelligence and Sustainability)
+DTSTART;TZID=Asia/Kolkata:20260930T123000
+DTEND;TZID=Asia/Kolkata:20260930T140000
+UID:486bedd109e6df30a1281423cf463150@iimutimetable
+CATEGORIES:AIS
+DESCRIPTION:Faculty: Prof. Hemendra Talesara & Prof. Sandeep Khurana\nSess
+ ion: S3\nCode: AIS\n\nRaw: AiS - S3
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AiS - S3 (Artificial Intelligence and Sustainability) starting
+  in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
