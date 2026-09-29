@@ -5929,19 +5929,19 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Claude Code Workshop\, 10.30am & 11.00am - 12.30pm
+SUMMARY:Claude Code Workshop\, 10.30am & 11.00am - 12.30pm (Cancelled)
 DTSTART;TZID=Asia/Kolkata:20261003T110000
 DTEND;TZID=Asia/Kolkata:20261003T123000
-UID:2bba2c07c416d8826c83e2b899b034e7@iimutimetable
+UID:1b36ef1f6b0f34624c009f1adc11a0ce@iimutimetable
 CATEGORIES:Special
 DESCRIPTION:Session: Workshop\nCode: CLAUDE\n\nRaw: Claude Code Workshop\,
-  10.30am & 11.00am - 12.30pm
+  10.30am & 11.00am - 12.30pm (Cancelled)
 LOCATION:CR-7C-15
 STATUS:TENTATIVE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Claude Code Workshop\, 10.30am & 11.00am - 12.30pm starting in
-  5 minutes
+DESCRIPTION:Claude Code Workshop\, 10.30am & 11.00am - 12.30pm (Cancelled)
+  starting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -6077,6 +6077,23 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:DVST - S7 (Data Visualization and Storytelling) starting in 5 
  minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTM Quiz - 4.00pm (Digital Transformation Management)
+DTSTART;TZID=Asia/Kolkata:20261006T150000
+DTEND;TZID=Asia/Kolkata:20261006T163000
+UID:acbd4a9cbe9391a99fc40f42152f535c@iimutimetable
+CATEGORIES:Special
+DESCRIPTION:Faculty: Prof. Jijo Mathew\nSession: Quiz-4\nCode: DTM\n\nRaw:
+  DTM Quiz - 4.00pm
+LOCATION:CR-7C-15
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DTM Quiz - 4.00pm (Digital Transformation Management) starting
+  in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
