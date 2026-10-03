@@ -5981,35 +5981,37 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AA(II) - S5 (Advanced Analytics – II)
-DTSTART;TZID=Asia/Kolkata:20261005T090000
-DTEND;TZID=Asia/Kolkata:20261005T103000
-UID:33905f9fd1d90c49980d125ca302134a@iimutimetable
+SUMMARY:AA(II) - S5 (8.30am - 10.00am) (Advanced Analytics – II)
+DTSTART;TZID=Asia/Kolkata:20261005T083000
+DTEND;TZID=Asia/Kolkata:20261005T100000
+UID:1a5f0ad488f31f6037c8321b9efd873e@iimutimetable
 CATEGORIES:AA(II)
 DESCRIPTION:Faculty: Prof. Yamini Shankar\nSession: S5\nCode: AA(II)\n\nRa
- w: AA(II) - S5
+ w: AA(II) - S5 (8.30am - 10.00am)
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:AA(II) - S5 (Advanced Analytics – II) starting in 5 minutes
+DESCRIPTION:AA(II) - S5 (8.30am - 10.00am) (Advanced Analytics – II) sta
+ rting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AiS - S5 (Artificial Intelligence and Sustainability)
-DTSTART;TZID=Asia/Kolkata:20261005T104500
-DTEND;TZID=Asia/Kolkata:20261005T121500
-UID:cf6f9ff7fc9115fc94e93424b9aab07c@iimutimetable
+SUMMARY:AiS - S5 (10.15am - 11.45am) (Artificial Intelligence and Sustaina
+ bility)
+DTSTART;TZID=Asia/Kolkata:20261005T101500
+DTEND;TZID=Asia/Kolkata:20261005T114500
+UID:dd9cd0642c3d7dab8e14efec55980416@iimutimetable
 CATEGORIES:AIS
 DESCRIPTION:Faculty: Prof. Hemendra Talesara & Prof. Sandeep Khurana\nSess
- ion: S5\nCode: AIS\n\nRaw: AiS - S5
+ ion: S5\nCode: AIS\n\nRaw: AiS - S5 (10.15am - 11.45am)
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:AiS - S5 (Artificial Intelligence and Sustainability) starting
-  in 5 minutes
+DESCRIPTION:AiS - S5 (10.15am - 11.45am) (Artificial Intelligence and Sust
+ ainability) starting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
