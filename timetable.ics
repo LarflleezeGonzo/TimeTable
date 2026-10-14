@@ -6716,27 +6716,10 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AiS - S10 (Artificial Intelligence and Sustainability)
-DTSTART;TZID=Asia/Kolkata:20261022T090000
-DTEND;TZID=Asia/Kolkata:20261022T103000
-UID:db2e4abca6373899234044c55ec114f7@iimutimetable
-CATEGORIES:AIS
-DESCRIPTION:Faculty: Prof. Hemendra Talesara & Prof. Sandeep Khurana\nSess
- ion: S10\nCode: AIS\n\nRaw: AiS - S10
-LOCATION:CR-7C-15
-STATUS:CONFIRMED
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:AiS - S10 (Artificial Intelligence and Sustainability) startin
- g in 5 minutes
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:WMC-S7 (Written Managerial Communication)
-DTSTART;TZID=Asia/Kolkata:20261022T104500
-DTEND;TZID=Asia/Kolkata:20261022T121500
-UID:e6cd41c6da7b4903bbf999d4b2403d8a@iimutimetable
+DTSTART;TZID=Asia/Kolkata:20261021T104500
+DTEND;TZID=Asia/Kolkata:20261021T121500
+UID:6e807ff0c8b8983e224901d3e6418225@iimutimetable
 CATEGORIES:WMC
 DESCRIPTION:Faculty: Prof. Manisha Mathews\nSession: S7\nCode: WMC\n\nRaw:
   WMC-S7
@@ -6750,17 +6733,20 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ICS - Innovation for SEP\, 12.30pm
-DTSTART;TZID=Asia/Kolkata:20261022T123000
-DTEND;TZID=Asia/Kolkata:20261022T140000
-UID:ecfda4151142632ad41962058df0c409@iimutimetable
-CATEGORIES:ICS
-DESCRIPTION:Code: ICS\n\nRaw: ICS - Innovation for SEP\, 12.30pm
+SUMMARY:AiS - S10 (8.00 - 9.30am) (Artificial Intelligence and Sustainabil
+ ity)
+DTSTART;TZID=Asia/Kolkata:20261022T080000
+DTEND;TZID=Asia/Kolkata:20261022T093000
+UID:dd839fcacaff0e8b35c0e1b7ce4ae513@iimutimetable
+CATEGORIES:AIS
+DESCRIPTION:Faculty: Prof. Hemendra Talesara & Prof. Sandeep Khurana\nSess
+ ion: S10\nCode: AIS\n\nRaw: AiS - S10 (8.00 - 9.30am)
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ICS - Innovation for SEP\, 12.30pm starting in 5 minutes
+DESCRIPTION:AiS - S10 (8.00 - 9.30am) (Artificial Intelligence and Sustain
+ ability) starting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
