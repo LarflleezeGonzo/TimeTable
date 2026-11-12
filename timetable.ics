@@ -7419,19 +7419,19 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SHRM - S2 (Strategic Human Resource Management)
+SUMMARY:SHRM - S2 (Cancelled) (Strategic Human Resource Management)
 DTSTART;TZID=Asia/Kolkata:20261116T090000
 DTEND;TZID=Asia/Kolkata:20261116T103000
-UID:1f651f56febd254156879760ce3540ce@iimutimetable
+UID:1810c56bf9699ce052a643b06a219466@iimutimetable
 CATEGORIES:SHRM
 DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S2\nCode: SHRM\n\nRaw: S
- HRM - S2
+ HRM - S2 (Cancelled)
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:SHRM - S2 (Strategic Human Resource Management) starting in 5 
- minutes
+DESCRIPTION:SHRM - S2 (Cancelled) (Strategic Human Resource Management) st
+ arting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -7453,18 +7453,18 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SHRM - S3 (Strategic Human Resource Management)
+SUMMARY:SHRM - S2 (Strategic Human Resource Management)
 DTSTART;TZID=Asia/Kolkata:20261117T090000
 DTEND;TZID=Asia/Kolkata:20261117T103000
-UID:ddb8b58aa5eabf7da0c61ca2b17553f4@iimutimetable
+UID:d51dd5f60be28237b4b7f5eabb14dcc8@iimutimetable
 CATEGORIES:SHRM
-DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S3\nCode: SHRM\n\nRaw: S
- HRM - S3
+DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S2\nCode: SHRM\n\nRaw: S
+ HRM - S2
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:SHRM - S3 (Strategic Human Resource Management) starting in 5 
+DESCRIPTION:SHRM - S2 (Strategic Human Resource Management) starting in 5 
  minutes
 TRIGGER:-PT5M
 END:VALARM
@@ -7535,18 +7535,18 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SHRM - S4 (Strategic Human Resource Management)
+SUMMARY:SHRM - S3 (Strategic Human Resource Management)
 DTSTART;TZID=Asia/Kolkata:20261118T090000
 DTEND;TZID=Asia/Kolkata:20261118T103000
-UID:cb08e0590a31790d6218999533671caa@iimutimetable
+UID:2475608669deb0ddd09f08920b90f254@iimutimetable
 CATEGORIES:SHRM
-DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S4\nCode: SHRM\n\nRaw: S
- HRM - S4
+DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S3\nCode: SHRM\n\nRaw: S
+ HRM - S3
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:SHRM - S4 (Strategic Human Resource Management) starting in 5 
+DESCRIPTION:SHRM - S3 (Strategic Human Resource Management) starting in 5 
  minutes
 TRIGGER:-PT5M
 END:VALARM
@@ -7570,9 +7570,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AA(II) - S16 (Advanced Analytics – II)
-DTSTART;TZID=Asia/Kolkata:20261119T090000
-DTEND;TZID=Asia/Kolkata:20261119T103000
-UID:f6d36a4bddd27a031ab209a58b0f852f@iimutimetable
+DTSTART;TZID=Asia/Kolkata:20261119T104500
+DTEND;TZID=Asia/Kolkata:20261119T121500
+UID:923ebc9405297b1bef8c7956a8e2de35@iimutimetable
 CATEGORIES:AA(II)
 DESCRIPTION:Faculty: Prof. Yamini Shankar\nSession: S16\nCode: AA(II)\n\nR
  aw: AA(II) - S16
@@ -7651,18 +7651,18 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SHRM - S5 (Strategic Human Resource Management)
+SUMMARY:SHRM - S4 (Strategic Human Resource Management)
 DTSTART;TZID=Asia/Kolkata:20261123T090000
 DTEND;TZID=Asia/Kolkata:20261123T103000
-UID:3d9440f53566d1c17171f617ea795ced@iimutimetable
+UID:c227fd86a9182afb2ffd1d9b2b996b06@iimutimetable
 CATEGORIES:SHRM
-DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S5\nCode: SHRM\n\nRaw: S
- HRM - S5
+DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S4\nCode: SHRM\n\nRaw: S
+ HRM - S4
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:SHRM - S5 (Strategic Human Resource Management) starting in 5 
+DESCRIPTION:SHRM - S4 (Strategic Human Resource Management) starting in 5 
  minutes
 TRIGGER:-PT5M
 END:VALARM
@@ -7701,9 +7701,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AA(II) - S17 (Advanced Analytics – II)
-DTSTART;TZID=Asia/Kolkata:20261124T090000
-DTEND;TZID=Asia/Kolkata:20261124T103000
-UID:2fdcc68266243cfa65fa7d564c03fd26@iimutimetable
+DTSTART;TZID=Asia/Kolkata:20261124T104500
+DTEND;TZID=Asia/Kolkata:20261124T121500
+UID:d35b48e013b1d3a6fb0f345ea189495b@iimutimetable
 CATEGORIES:AA(II)
 DESCRIPTION:Faculty: Prof. Yamini Shankar\nSession: S17\nCode: AA(II)\n\nR
  aw: AA(II) - S17
@@ -7716,18 +7716,18 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SHRM - S6 (Strategic Human Resource Management)
+SUMMARY:SHRM - S5 (Strategic Human Resource Management)
 DTSTART;TZID=Asia/Kolkata:20261125T090000
 DTEND;TZID=Asia/Kolkata:20261125T103000
-UID:b909c33689ac37bc14fa8fee88bb2be7@iimutimetable
+UID:ed30ffa8958f7b78525cbf29e5fa0444@iimutimetable
 CATEGORIES:SHRM
-DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S6\nCode: SHRM\n\nRaw: S
- HRM - S6
+DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S5\nCode: SHRM\n\nRaw: S
+ HRM - S5
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:SHRM - S6 (Strategic Human Resource Management) starting in 5 
+DESCRIPTION:SHRM - S5 (Strategic Human Resource Management) starting in 5 
  minutes
 TRIGGER:-PT5M
 END:VALARM
@@ -7766,9 +7766,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AA(II) - S18 (Advanced Analytics – II)
-DTSTART;TZID=Asia/Kolkata:20261126T090000
-DTEND;TZID=Asia/Kolkata:20261126T103000
-UID:71a43bd4d079fda1673b2952609cf197@iimutimetable
+DTSTART;TZID=Asia/Kolkata:20261126T104500
+DTEND;TZID=Asia/Kolkata:20261126T121500
+UID:057325e000321ab29a8200e05f62e59a@iimutimetable
 CATEGORIES:AA(II)
 DESCRIPTION:Faculty: Prof. Yamini Shankar\nSession: S18\nCode: AA(II)\n\nR
  aw: AA(II) - S18
@@ -7916,18 +7916,18 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SHRM - S7 (Strategic Human Resource Management)
+SUMMARY:SHRM - S6 (Strategic Human Resource Management)
 DTSTART;TZID=Asia/Kolkata:20261130T090000
 DTEND;TZID=Asia/Kolkata:20261130T103000
-UID:0566537fac1244db2785a698afa8e802@iimutimetable
+UID:cab9cfc469387c59b0a03d2e51856028@iimutimetable
 CATEGORIES:SHRM
-DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S7\nCode: SHRM\n\nRaw: S
- HRM - S7
+DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S6\nCode: SHRM\n\nRaw: S
+ HRM - S6
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:SHRM - S7 (Strategic Human Resource Management) starting in 5 
+DESCRIPTION:SHRM - S6 (Strategic Human Resource Management) starting in 5 
  minutes
 TRIGGER:-PT5M
 END:VALARM
@@ -8029,18 +8029,18 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SHRM - S8 (Strategic Human Resource Management)
+SUMMARY:SHRM - S7 (Strategic Human Resource Management)
 DTSTART;TZID=Asia/Kolkata:20261202T090000
 DTEND;TZID=Asia/Kolkata:20261202T103000
-UID:64397fa46f4ded61959ecc11201a3e10@iimutimetable
+UID:9d402837d4961531376473f7ed748b90@iimutimetable
 CATEGORIES:SHRM
-DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S8\nCode: SHRM\n\nRaw: S
- HRM - S8
+DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S7\nCode: SHRM\n\nRaw: S
+ HRM - S7
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:SHRM - S8 (Strategic Human Resource Management) starting in 5 
+DESCRIPTION:SHRM - S7 (Strategic Human Resource Management) starting in 5 
  minutes
 TRIGGER:-PT5M
 END:VALARM
@@ -8111,9 +8111,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AA(II) - S20 (Advanced Analytics – II)
-DTSTART;TZID=Asia/Kolkata:20261203T090000
-DTEND;TZID=Asia/Kolkata:20261203T103000
-UID:65f3e315540049507f0d5cbaa76f7e7b@iimutimetable
+DTSTART;TZID=Asia/Kolkata:20261203T104500
+DTEND;TZID=Asia/Kolkata:20261203T121500
+UID:33ba66bba67ce8c6a7f1ed69f23697f7@iimutimetable
 CATEGORIES:AA(II)
 DESCRIPTION:Faculty: Prof. Yamini Shankar\nSession: S20\nCode: AA(II)\n\nR
  aw: AA(II) - S20
@@ -8122,6 +8122,23 @@ STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:AA(II) - S20 (Advanced Analytics – II) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SHRM - S8 (Strategic Human Resource Management)
+DTSTART;TZID=Asia/Kolkata:20261203T123000
+DTEND;TZID=Asia/Kolkata:20261203T140000
+UID:508ab66250f825d235fc372f9652a74d@iimutimetable
+CATEGORIES:SHRM
+DESCRIPTION:Faculty: Prof. Kirti Mishra\nSession: S8\nCode: SHRM\n\nRaw: S
+ HRM - S8
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SHRM - S8 (Strategic Human Resource Management) starting in 5 
+ minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
