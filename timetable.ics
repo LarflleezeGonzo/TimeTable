@@ -7668,18 +7668,19 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BDDO - Q1 (Building a Data-driven Organization)
+SUMMARY:BDDO - Q1 (Cancelled) (Building a Data-driven Organization)
 DTSTART;TZID=Asia/Kolkata:20261123T123000
 DTEND;TZID=Asia/Kolkata:20261123T140000
-UID:18714683c3a2466e8e0d7ec9e6aa7540@iimutimetable
+UID:8c12341c56dc24cbf51571230270e664@iimutimetable
 CATEGORIES:BDDO
-DESCRIPTION:Faculty: Prof. Ankur Dang\nCode: BDDO\n\nRaw: BDDO - Q1
+DESCRIPTION:Faculty: Prof. Ankur Dang\nCode: BDDO\n\nRaw: BDDO - Q1 (Cance
+ lled)
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:BDDO - Q1 (Building a Data-driven Organization) starting in 5 
- minutes
+DESCRIPTION:BDDO - Q1 (Cancelled) (Building a Data-driven Organization) st
+ arting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -7728,6 +7729,22 @@ STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:AA(II) - S17 (Advanced Analytics – II) starting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BDDO - Q1 (Building a Data-driven Organization)
+DTSTART;TZID=Asia/Kolkata:20261124T150000
+DTEND;TZID=Asia/Kolkata:20261124T163000
+UID:712d5f020310edf298c50564d94b0c8f@iimutimetable
+CATEGORIES:BDDO
+DESCRIPTION:Faculty: Prof. Ankur Dang\nCode: BDDO\n\nRaw: BDDO - Q1
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BDDO - Q1 (Building a Data-driven Organization) starting in 5 
+ minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
