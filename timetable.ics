@@ -7865,19 +7865,17 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DSPBM - S7 (Data Security and Privacy for Business Managers)
+SUMMARY:PPT - Placement
 DTSTART;TZID=Asia/Kolkata:20261127T104500
 DTEND;TZID=Asia/Kolkata:20261127T121500
-UID:d41e5a810790f9a6d4d4836eedc0b469@iimutimetable
-CATEGORIES:DSPBM
-DESCRIPTION:Faculty: Prof. Soumitra Sen\nSession: S7\nCode: DSPBM\n\nRaw: 
- DSPBM - S7
+UID:972e4f3ea6f3952b3e0db9e6bd30d1f2@iimutimetable
+CATEGORIES:PPT
+DESCRIPTION:Code: PPT\n\nRaw: PPT - Placement
 LOCATION:CR-7C-15
 STATUS:CONFIRMED
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:DSPBM - S7 (Data Security and Privacy for Business Managers) s
- tarting in 5 minutes
+DESCRIPTION:PPT - Placement starting in 5 minutes
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -8302,10 +8300,27 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DSPBM - S8 (Data Security and Privacy for Business Managers)
+SUMMARY:DSPBM - S7 (Data Security and Privacy for Business Managers)
 DTSTART;TZID=Asia/Kolkata:20261207T123000
 DTEND;TZID=Asia/Kolkata:20261207T140000
-UID:0cdbc5d339ed0ce803ce39b40a0aa43d@iimutimetable
+UID:f603f34ce67a42f1810e0e7257e3461b@iimutimetable
+CATEGORIES:DSPBM
+DESCRIPTION:Faculty: Prof. Soumitra Sen\nSession: S7\nCode: DSPBM\n\nRaw: 
+ DSPBM - S7
+LOCATION:CR-7C-15
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DSPBM - S7 (Data Security and Privacy for Business Managers) s
+ tarting in 5 minutes
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DSPBM - S8 (Data Security and Privacy for Business Managers)
+DTSTART;TZID=Asia/Kolkata:20261207T150000
+DTEND;TZID=Asia/Kolkata:20261207T163000
+UID:9740e170c923b724abed6ec54b696f1d@iimutimetable
 CATEGORIES:DSPBM
 DESCRIPTION:Faculty: Prof. Soumitra Sen\nSession: S8\nCode: DSPBM\n\nRaw: 
  DSPBM - S8
@@ -8320,9 +8335,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DSPBM - S9 (Data Security and Privacy for Business Managers)
-DTSTART;TZID=Asia/Kolkata:20261207T150000
-DTEND;TZID=Asia/Kolkata:20261207T163000
-UID:bc44e077a8d94ca75702c4205902bef1@iimutimetable
+DTSTART;TZID=Asia/Kolkata:20261208T090000
+DTEND;TZID=Asia/Kolkata:20261208T103000
+UID:2593d402019b4c965065793ab2240499@iimutimetable
 CATEGORIES:DSPBM
 DESCRIPTION:Faculty: Prof. Soumitra Sen\nSession: S9\nCode: DSPBM\n\nRaw: 
  DSPBM - S9
@@ -8337,9 +8352,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DSPBM - S10 (Data Security and Privacy for Business Managers)
-DTSTART;TZID=Asia/Kolkata:20261208T090000
-DTEND;TZID=Asia/Kolkata:20261208T103000
-UID:fe1c0a14170e253af6761db70f691ad4@iimutimetable
+DTSTART;TZID=Asia/Kolkata:20261208T104500
+DTEND;TZID=Asia/Kolkata:20261208T121500
+UID:4c94c9f21229e736a68b1a39ac0fc388@iimutimetable
 CATEGORIES:DSPBM
 DESCRIPTION:Faculty: Prof. Soumitra Sen\nSession: S10\nCode: DSPBM\n\nRaw:
   DSPBM - S10
