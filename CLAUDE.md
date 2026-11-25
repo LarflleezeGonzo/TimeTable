@@ -2,7 +2,7 @@
 
 ## What This Does
 
-Fetches a timetable from a Google Drive Excel file (.xlsx) and converts it into a `.ics` calendar file. The `.ics` is published to GitHub Pages via a GitHub Actions workflow that runs three times daily.
+Fetches a timetable from a Google Drive Excel file (.xlsx) and converts it into a `.ics` calendar file. The `.ics` is published to GitHub Pages via a GitHub Actions workflow that runs every 30 minutes from 5 AM to 10 PM IST.
 
 **Repository:** `LarflleezeGonzo/TimeTable` on GitHub  
 **Published calendar URL:** `https://larflleezegonzo.github.io/TimeTable/timetable.ics` (served from the `gh-pages` branch)
@@ -16,11 +16,12 @@ Fetches a timetable from a Google Drive Excel file (.xlsx) and converts it into 
 | `timetable_sources.json` | **Add new terms here** — lists all Drive files to sync |
 | `sync_timetable.py` | CLI entry point — loads sources, fetches all terms, merges into one `.ics` |
 | `auth.py` | Google OAuth2 flow; caches token in `token.json` |
-| `sheets.py` | Downloads the Excel file from Google Drive and parses it |
+| `sheets.py` | Downloads the Excel file from Google Drive and parses it (Terms I–III) |
+| `term4_parser.py` | Separate grid parser for Term IV (combined GSCM & DEM sheet); used only by sources with `"parser": "term4"` |
 | `ics_generator.py` | Builds the `.ics` bytes from parsed events |
 | `utils.py` | Helpers (spreadsheet ID extraction, year detection, code normalization) |
 | `.env` | Local config: `SHEET_URL` (Term I), `DEFAULT_OUTPUT`, `DEFAULT_TIMEZONE`, `LOCATION` |
-| `.github/workflows/sync.yml` | CI: runs sync 3×/day, deploys `timetable.ics` to `gh-pages` |
+| `.github/workflows/sync.yml` | CI: runs sync every 30 min 5 AM–10 PM IST, deploys `timetable.ics` to `gh-pages` |
 
 ### Adding a new term
 
@@ -29,6 +30,12 @@ Edit `timetable_sources.json` and append an entry:
 { "term": "Term IV", "url": "https://docs.google.com/spreadsheets/d/NEW_FILE_ID/edit" }
 ```
 Commit and push — the next CI run picks it up automatically. No secrets needed (URLs are not sensitive).
+
+Optional per-entry keys:
+- `"parser": "term4"` — use `term4_parser.py` instead of `sheets.py`. Needed for sheets whose month labels carry a year (`Dec'26`), that span New Year, or that list several sections.
+- `"exclude_sections": ["GSCM"]` — (term4 parser only) drop cells tagged with that section, e.g. `CS-S1 (GSCM)`.
+
+Terms I–III use the original `sheets.py` parser. Don't change `sheets.py`/`utils.py` to fix a newer term; put term-specific handling in a separate module so earlier terms keep parsing exactly as before.
 
 ---
 
@@ -88,7 +95,7 @@ On first run a browser window opens for Google sign-in. Subsequent runs reuse `t
 
 File: `.github/workflows/sync.yml`
 
-- **Schedule:** 7:30 AM, 9:55 AM, and 2:05 PM IST daily
+- **Schedule:** every 30 minutes from 5:00 AM to 10:00 PM IST (35 runs/day; GitHub may delay scheduled runs by several minutes)
 - **Manual trigger:** GitHub Actions UI → "Run workflow"
 - **Steps:** checkout → install deps → write credential files from secrets → run sync → deploy `timetable.ics` to `gh-pages` via `peaceiris/actions-gh-pages`
 

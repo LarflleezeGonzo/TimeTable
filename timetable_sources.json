@@ -10,5 +10,13 @@
   {
     "term": "Term III",
     "url": "https://docs.google.com/spreadsheets/d/1nC7y_NkvKohQUb1C453QCNQUqIgP71QU/edit"
+  },
+  {
+    "term": "Term IV",
+    "url": "https://docs.google.com/spreadsheets/d/1PLO6FoTlbj9aGcxJyCoWLfG0mqVrVJIo/edit",
+    "parser": "term4",
+    "exclude_sections": [
+      "GSCM"
+    ]
   }
 ]

@@ -30,6 +30,7 @@ from sheets import (
     parse_calendar_grid,
     parse_course_map,
 )
+from term4_parser import parse_term4_grid
 from utils import extract_spreadsheet_id, extract_year_from_metadata
 
 
@@ -44,6 +45,9 @@ def load_sources(sources_file: str) -> list[dict]:
     Each entry must have a "term" name and either:
       "url"     — literal Google Drive/Sheets URL or file ID
       "url_env" — name of an environment variable that holds the URL
+    Optional:
+      "parser"           — "term4" to use term4_parser.py (default: sheets.py)
+      "exclude_sections" — term4 only: section tags to drop, e.g. ["GSCM"]
 
     Entries whose URL cannot be resolved (missing env var) are skipped with
     a warning so a partial sync still succeeds.
@@ -62,13 +66,14 @@ def load_sources(sources_file: str) -> list[dict]:
         term = entry.get("term", "Unknown")
         url  = entry.get("url")
         env  = entry.get("url_env")
+        opts = {k: entry[k] for k in ("parser", "exclude_sections") if k in entry}
 
         if url:
-            resolved.append({"term": term, "url": url})
+            resolved.append({"term": term, "url": url, **opts})
         elif env:
             val = os.environ.get(env, "").strip()
             if val:
-                resolved.append({"term": term, "url": val})
+                resolved.append({"term": term, "url": val, **opts})
             else:
                 print(f"WARNING: {term} skipped — env var '{env}' is not set.")
         else:
@@ -87,6 +92,8 @@ def fetch_term_events(
     credentials,
     year_override: int | None,
     location: str,
+    parser: str | None = None,
+    exclude_sections: list[str] | None = None,
 ) -> list[TimetableEvent]:
     """Fetch one Drive file and return its parsed events."""
     try:
@@ -114,9 +121,16 @@ def fetch_term_events(
     print(f"[{term}] Courses: {len(course_map)} — {', '.join(sorted(course_map))}")
 
     year = year_override or extract_year_from_metadata(rows)
-    print(f"[{term}] Year: {year}")
+    note = " (fallback; month labels like Dec'26 take precedence)" if parser == "term4" else ""
+    print(f"[{term}] Year: {year}{note}")
 
-    events = parse_calendar_grid(rows, course_map, year=year, location=location)
+    if parser == "term4":
+        events = parse_term4_grid(
+            rows, course_map, year=year, location=location,
+            exclude_sections=exclude_sections,
+        )
+    else:
+        events = parse_calendar_grid(rows, course_map, year=year, location=location)
     special = sum(1 for e in events if e.is_special)
     print(f"[{term}] Events: {len(events)} ({len(events) - special} regular, {special} special)\n")
 
@@ -272,6 +286,8 @@ def main() -> None:
             credentials=creds,
             year_override=args.year,
             location=location,
+            parser=source.get("parser"),
+            exclude_sections=source.get("exclude_sections"),
         )
         all_events.extend(events)
 
